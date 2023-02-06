@@ -57,20 +57,74 @@ Right-click on **SampleScene** in the Hierarchy and choose **Save Scene As**.
 
 In the pop-up window, name your Scene `Rainbow run`:
 
-![The 'Save As' pop-up window with Scenes folder selected.](images/save-scene.png)
-
 A new file will appear in the Assets folder in the Project window:
 
 ![Project window with Rainbow run scene in the Assets folder.](images/rainbow-run-scene.png)
 
 --- /task ---
 
+### Add a floor
+
 --- task ---
 
-Right-click on your scene (named Rainbow run) in the Hierarchy window and choose **GameObject** > **3D Object** > **Plane**: 
+Right-click on your scene (named Rainbow run) in the Hierarchy window and choose **GameObject** > **3D Object** > **Plane**.
 
-![The Rainbow run scene with menu extended and 'Plane' highlighted.](images/add-plane.png)
+This will create a ground for your track to sit on.
 
 --- /task ---
+
+--- task ---
+
+Resize the **Z Scale** of the plane in the Inspector window to `2`:
+
+![The Transform pane in the Inspector window with Scale properties X=1, Y=1, and Z=2.](images/plane-transform.png)
+
+--- /task ---
+
+--- task ---
+
+In the Project window, double-click on the 'Materials' folder and then 'Obstacle Materials'. **Drag** the 'Concrete' material to the plane. 
+
+Your scene should look like this:
+
+
+
+
+
+
+--- /task ---
+
+### Create the track
+
+--- task ---
+Right-click on 'Persp' in the Scene gizmo and choose 'Top' to switch to top-down view. 
+
+--- /task ---
+
+--- task ---
+
+In the Projects window, open the 'Parts' folder and drag a 'Goal' into the scene view. Drag the goal near to the top-right of the plane. 
+
+You can either use the 'Move' tool to position the goal or enter the numbers X=, Y=, Z=.
+
+![The transform position for the goal.](images/goal-transform.png)
+
+--- /task ---
+
+--- task ---
+
+Change the perspective to 'Left' using the Scene gizmo. 
+
+Use the 'View Tool' to drag the scene view so that you are looking down on the plane:
+
+![The plane viewed from the side and above.](images/scene-above.png)
+
+--- /task ---
+
+--- task ---
+
+--- /task ---
+
+**Tip:** Your scene will autosave. You can also use 'File->Save' or <kbd>Ctrl+S</kbd> to save at any time. 
 
 --- save ---
