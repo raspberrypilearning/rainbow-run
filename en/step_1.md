@@ -5,7 +5,7 @@ Add project description here. What will learners be making? Broadly what skills 
 ### What you will make
 
 --- no-print ---
-Add instructions for interacting with the embedded content here.
+Add instructions for interacting with the embedded content here. hi
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
