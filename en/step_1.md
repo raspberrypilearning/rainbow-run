@@ -1,59 +1,38 @@
-## Introduction
+## You will make
 
-Add project description here. What will learners be making? Broadly what skills will they be learning?
+Create a track for a ball to roll along. Add obstacles and a goal for the ball to reach.
 
-### What you will make
+You will:
+
++ Make a ball roll using physics
++ Use code to control the camera and ball
++ Build a level using 3D objects
 
 --- no-print ---
-Add instructions for interacting with the embedded content here. hi
 
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
+Control the camera by clicking the left mouse button and moving the mouse. Control the movement of the ball using WASD (or ZQSD) or the arrow keys. Use <kbd>Space</kbd> to jump. 
+
+<mark>Check this matches the keys we support.</mark>
+
+<iframe allowtransparency="true" width="710" height="450" src="https://explore-a-3d-world-basic.rpfilt.repl.co" frameborder="0"></iframe>
+
 --- /no-print ---
 
 --- print-only ---
 ![Complete project](images/showcase_static.png)
 --- /print-only ---
 
---- collapse ---
----
-title: What you will need
----
-### Hardware
 
-+ A computer or tablet capable of running Scratch 3
+### You will need
 
-### Software
+This project requires the Unity Editor, which can be installed from the Unity Hub. This is a large download and install, so we recommend you install it before starting this project.
 
-+ Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
+You can follow our [Unity guide](https://projects.raspberrypi.org/en/projects/unity-guide){:target="_blank"} to install Unity Hub and the Unity Editor for your operating system.
 
-### Downloads
+You will also need to download the [Unity starter package](https://rpf.io/p/en/rainbow-run-go){:target="_blank"} of assets before starting.
 
-+ Download the project [starter file](https://rpf.io/p/en/projectName-go){:target="_blank"} if working offline
 
---- /collapse ---
+### Recommended previous experience
 
---- collapse ---
----
-title: What you will learn
----
+The projects in this More Unity path are suitable for creators with some experience of Unity. If you are new to Unity our [Introduction to Unity: 3D Objects, Character Controllers, Colliders, Text and Buttons](https://projects.raspberrypi.org/en/raspberrypi/unity-intro) path is a great place to start.
 
-+ Learning objective 1
-+ Learning objective 2
-+ Learning objective 3
-
---- /collapse ---
-
---- collapse ---
----
-title: Additional information for educators
----
-
-You can download the completed project [here](https://rpf.io/p/en/projectName-get){:target="_blank"}.
-
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/projectName/print){:target="_blank"}.
-
---- /collapse ---
