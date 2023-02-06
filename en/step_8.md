@@ -1,10 +1,19 @@
 ## Upgrade your project
 
-<div style="display: flex; flex-wrap: wrap">
-<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Create a marble using a **UV sphere** object. Add a new material to the sphere.
-</div>
-<div>
-![The output of step 2.](images/step2-output.PNG){:width="300px"}
-</div>
-</div>
+Now you can customise and extend your Rainbow run.
+
+You can: 
++
++
+
+<iframe allowtransparency="true" width="710" height="450" src="https://explore-a-3d-world-extended.rpfilt.repl.co" frameborder="0"></iframe>
+
+--- collapse ---
+
+---
+title: Completed project
+---
+
+You can download the basic and extended projects as packages along with the WebGL projects from the  [zipped solutions directory](https://rpf.io/p/en/rainbow-run-get){:target="_blank"}.
+
+--- /collapse ---

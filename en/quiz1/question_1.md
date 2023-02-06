@@ -1,6 +1,6 @@
 ## Reflection
 
-Answer these three questions to get your ‘Blender - Add material effects to a marble’ badge.
+Answer these three questions to get your ‘Rainbow run’ badge.
 
 There are hints to guide you to the correct answer.
 
