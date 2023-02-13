@@ -29,7 +29,7 @@ Download and unzip the [More Unity starter package](https://rpf.io/p/en/rainbow-
 
 Launch the Unity Hub and click **Projects** then select **New project**:
 
-![A screenshot of the black bar at the top of the Unity Hub with the 'New Project' button highlighted in red.](images/new_project.png)
+![A screenshot of the black bar at the top of the Unity Hub with the 'New Project' button highlighted in red.](images/new-project.png)
 
 From the list choose **All templates** then select **3D Core**:
 
@@ -87,13 +87,13 @@ Resize the **Z Scale** of the plane in the Inspector window to `2`:
 
 --- task ---
 
-In the Project window, click on  folders **Materials > Obstacle Materials**.
+In the Project window, click on **Materials > Obstacle Materials**.
 
 **Drag** the 'Concrete floor' material to the plane: 
 
 Your scene should look like this:
 
-![The Scene View with a rectangle plane covered in a grey textured material.](images/plane-scene.png)
+![The Scene View with a rectangle plane covered in a grey textured material.](images/concrete-plane.png)
 
 --- /task ---
 
@@ -103,6 +103,10 @@ Your scene should look like this:
 
 Right-click on **Persp** in the Scene gizmo and choose 'Top' to switch to top-down view:
 
+![Then Persp menu is selected with the 'Top' option highlighted.](images/persp-top.png)
+
+You should now see your project from the top view. 
+
 ![The Scene view with plane viewed from a top down angle.](images/plane-top.png)
 
 --- /task ---
@@ -111,31 +115,62 @@ Right-click on **Persp** in the Scene gizmo and choose 'Top' to switch to top-do
 
 In the Projects window, open the **Parts** folder and drag a 'Goal' into the Scene view. Position the goal near to the top-right of the plane. 
 
-**Tip:** You can either use the 'Move' tool to position the goal or enter the transform position numbers X=3, Y=0, Z=8.
+**Tip:** You can either use the 'Move' tool to position the goal or enter the transform position numbers X=`3`, Y=`0`, Z=`8`:
 
 ![The transform position for the goal.](images/goal-transform.png)
+
+Your goal should now look like this:
+
+![The goal positioned in the top right corner.](images/goal-position.png)
 
 --- /task ---
 
 --- task ---
 
+From the **Parts** folder, drag a 'Ramp_StraightDown' into the Scene view. Position the ramp in front of the goal. 
 
+**Tip:** You can either use the 'Move' tool to position the ramp or enter the transform position numbers X=`3`, Y=`1.5`, Z=`-3.3`:
 
 --- /task ---
+
+It is difficult to see the angle of the ramp from the top view.
 
 --- task ---
 
 Change the perspective to 'Right' using the Scene gizmo. 
 
-Use the 'View Tool' to drag the scene view so that you are looking down on the plane:
+You can move your view of the scene to see it from different angles. The best angle to view your track from is slightly higher than the pieces but angled down:
 
-![The plane viewed from the side and above.](images/scene-above.png)
+[[[unity-scene-navigation]]]
+
+**Tip:** Remember, after navigating to the view you like best your view won't look exactly the same as our examples.
+
+![The plane and ramp viewed from the right side and above.](images/scene-above.png)
+
+--- /task ---
+
+--- task ---
+
+From the **Parts** folder, drag a 'Ramp_Spiral' into the Scene view. Position the spiral so it connects closely with the Ramp_StraightDown. 
+
+You can connect vertices (points) of two different objects in Unity, by holding down the **V** key, hovering close to a vertex, and then dragging it towards the object you want to align with.
+
+![An animated image shown the top corner of the Ramp_Spiral lower edge being selected and dragged to the top corner of the Ramp_StraightDown upper edge .](images/vertex-pieces.gif)
+
+<mark>generic Vertex snapping ingredient</mark>
+
+
+**Tip:** An alternative way to position these two pieces together is to set the transform position of the Ramp_Spiral to X=`3`, Y=`1.5`, Z=`-3.25`.
+--- /task ---
+
+--- task ---
 
 --- /task ---
 
 --- task ---
 
 --- /task ---
+
 
 **Tip:** Your scene will autosave. You can also use 'File->Save' or <kbd>Ctrl+S</kbd> to save at any time. 
 
