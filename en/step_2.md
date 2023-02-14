@@ -159,11 +159,22 @@ You can connect vertices (points) of two different objects in Unity by holding d
 
 <mark>generic Vertex snapping ingredient</mark>
 
-An alternative way to position these two pieces together is to set the transform position of the Ramp_Spiral to X=`3`, Y=`1.5`, Z=`-3.`. 
+An alternative way to position these two pieces together is to set the transform position of the Ramp_Spiral to X=`3`, Y=`1.5`, Z=`-3.3`. 
 
-**Tip:** If you click on an object in Scene view you can see the Transform gizmo on the shape. This gizmo sits at the **Pivot point** and is the point used for the Transform position coordinates. In this case the Pivot point for 'Ramp_StraightDown' is at the top and the Pivot point for 'Ramp_Spiral' is at the bottom so the coordinates are the same for both pieces. 
+--- collapse ---
+---
+title: Why are the coordinates for both objects the same?
+---
+
+Objects in Unity have a **Pivot point** used for the Transform position coordinates.
+
+**Tip:** Click on an object in Scene view to see the Transform gizmo position. 
+
+In this case the Pivot point for 'Ramp_StraightDown' is at the top edge and the Pivot point for 'Ramp_Spiral' is at the bottom edge. This means the coordinates are the same for both pieces. 
 
 ![Two images side by side showing the joining area of both objects. The first with the transform gizmo on the 'Ramp_StraightDown' , the second with the transform gizmo of the 'Ramp_Spiral'.](images/pivot-point.png)
+
+--- /collapse ---
 
 --- /task ---
 
