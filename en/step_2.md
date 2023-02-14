@@ -155,7 +155,7 @@ From the **Parts** folder, drag a 'Ramp_Spiral' into the Scene view. Position th
 
 You can connect vertices (points) of two different objects in Unity by holding down the **V** key, hovering close to a vertex, and then dragging it towards the object you want to align with.
 
-![An animated image shown the top corner of the Ramp_Spiral lower edge being selected and dragged to the top corner of the Ramp_StraightDown upper edge.](images/vertex-pieces.gif)
+![An animated image shown the top corner of the Ramp_Spiral lower edge being selected and dragged to the top corner of the Ramp_StraightDown upper edge.](images/vertex-snapping.gif)
 
 <mark>generic Vertex snapping ingredient</mark>
 
