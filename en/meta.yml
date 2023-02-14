@@ -8,10 +8,10 @@ last_tested: "2022-05-19"
 steps:
   - title: Introduction
   - title: Build the track
-  - title: Step title
-  - title: Step title
-  - title: Step title
-  - title: Step title
-  - title: Step title
-  - title: Step title
+  - title: Create a ball
+  - title: Control the ball
+  - title: Add moving obstacles
+  - title: Add sounds
+  - title: Reflection
+  - title: Upgrade
   - title: What next?
