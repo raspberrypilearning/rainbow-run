@@ -151,16 +151,20 @@ You can move your view of the scene to see it from different angles. The best an
 
 --- task ---
 
-From the **Parts** folder, drag a 'Ramp_Spiral' into the Scene view. Position the spiral so it connects closely with the Ramp_StraightDown. 
+From the **Parts** folder, drag a 'Ramp_Spiral' into the Scene view. Position the spiral so it connects closely with the Ramp_StraightDown part. 
 
-You can connect vertices (points) of two different objects in Unity, by holding down the **V** key, hovering close to a vertex, and then dragging it towards the object you want to align with.
+You can connect vertices (points) of two different objects in Unity by holding down the **V** key, hovering close to a vertex, and then dragging it towards the object you want to align with.
 
-![An animated image shown the top corner of the Ramp_Spiral lower edge being selected and dragged to the top corner of the Ramp_StraightDown upper edge .](images/vertex-pieces.gif)
+![An animated image shown the top corner of the Ramp_Spiral lower edge being selected and dragged to the top corner of the Ramp_StraightDown upper edge.](images/vertex-pieces.gif)
 
 <mark>generic Vertex snapping ingredient</mark>
 
+An alternative way to position these two pieces together is to set the transform position of the Ramp_Spiral to X=`3`, Y=`1.5`, Z=`-3.`. 
 
-**Tip:** An alternative way to position these two pieces together is to set the transform position of the Ramp_Spiral to X=`3`, Y=`1.5`, Z=`-3.25`.
+**Tip:** If you click on an object in Scene view you can see the Transform gizmo on the shape. This gizmo sits at the **Pivot point** and is the point used for the Transform position coordinates. In this case the Pivot point for 'Ramp_StraightDown' is at the top and the Pivot point for 'Ramp_Spiral' is at the bottom so the coordinates are the same for both pieces. 
+
+![Two images side by side showing the joining area of both objects. The first with the transform gizmo on the 'Ramp_StraightDown' , the second with the transform gizmo of the 'Ramp_Spiral'.](images/pivot-point.png)
+
 --- /task ---
 
 --- task ---
