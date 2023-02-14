@@ -204,11 +204,9 @@ Your course should look like the image below. This screenshot was taken from the
 
 In the Project window, go to **Materials > ObstacleMaterials**. Drag a coloured material onto each piece in the Scene view.   
 
---- /task ---
+We added rainbow colours. What will you choose? 
 
---- task ---
-
-
+![The completed course from the right perspective with each piece representing a colour of the rainbow.](images/rainbow-track.png)
 
 --- /task ---
 
