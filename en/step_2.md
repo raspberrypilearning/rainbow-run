@@ -180,12 +180,37 @@ In this case the Pivot point for 'Ramp_StraightDown' is at the top edge and the 
 
 --- task ---
 
+From the **Parts** folder, drag a 'Ramp_CurveDown' into the Scene view. Position the curved ramp so it connects closely with the Ramp_Spiral part. 
+
+Use **Vertex snapping** to position your part.
+
+Alternatively, you can use the coordinates X=`-2.37`, Y=`5.1`, Z=`-7.8`.
+
 --- /task ---
 
 --- task ---
 
+Your course should look like the image below. This screenshot was taken from the **right** perspective.
+
+![The completed course from the right perspective.](images/course-complete.png)
+
 --- /task ---
 
+### Colour the track
+
+--- task ---
+
+**Choose:** a material for each piece in your track. 
+
+In the Project window, go to **Materials > ObstacleMaterials**. Drag a coloured material onto each piece in the Scene view.   
+
+--- /task ---
+
+--- task ---
+
+
+
+--- /task ---
 
 **Tip:** Your scene will autosave. You can also use 'File->Save' or <kbd>Ctrl+S</kbd> to save at any time. 
 
