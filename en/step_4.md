@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Create a script to control the camera and follow the ball down the track.
+In this step, you will create a script to control the camera and follow the ball down the track.
 </div>
 <div>
 ![An animated image of the Game view with the camera following the ball down the track. The camera is rotating to the left and right.](images/camera-control.gif){:width="300px"}

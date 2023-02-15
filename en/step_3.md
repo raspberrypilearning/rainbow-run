@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Create a ball using a **UV sphere** object. Style the ball and make it bounce.
+In this step, you will create a ball using a **UV sphere** object. Then style the ball and make it bounce.
 </div>
 <div>
 ![The ball game object is shown in the centre of the Scene view. The view is close up.](images/bouncyball-zoom.png){:width="300px"}
@@ -131,7 +131,7 @@ Go to the Inspector window and select the small circle next to **Albedo**. Type 
 
 Click on the texture to add it to your new material.
 
-![The Inspector showing the 'Albedo' property and beneath it a popup window with the words 'BouncyBall' typed into the search. The BouncyBall texture has appeared in the search results.](images/bouncyball-material.png)
+![The Inspector showing the 'Albedo' property and beneath it a popup window with the words 'BouncyBall' typed into the search. The BouncyBall texture has appeared in the search results.](images/bouncyball-texture.png)
 
 --- /task ---
 
@@ -141,6 +141,6 @@ Drag your new 'BouncyBall' material to the ball in the Scene view.
 
 **Tip:** Use <kbd>shift</kbd> and <kbd>f</kbd> on your keyboard to zoom in to the ball object so you can see the material clearly. 
 
-![The ball game object is shown in the centre of the Scene view. The view is close up.](images/bouncyball-zoom.png)
+![The ball game object is shown in the centre of the Scene view. The view is close up.](images/bouncyball-ball.png)
 
 --- /task ---
