@@ -5,7 +5,7 @@
 In this step, you will create a script that uses the keyboard to control the ball.
 </div>
 <div>
-![The output of step 5.](images/ball-jump.gif){:width="300px"}
+![The output of step 5.](images/jump-ball.gif){:width="300px"}
 </div>
 </div>
 
@@ -275,7 +275,7 @@ public class BallController : MonoBehaviour
 
 Use the <kbd>W A S</kbd> and <kbd>D</kbd> keys to move the ball up, left, down and right. 
 
-![An animated image of the ball jumping on the track.](images/ball-jump.gif)
+![An animated image of the ball jumping on the track.](images/jump-ball.gif)
 
 Press the 'Play' button again to stop running your project. 
 
