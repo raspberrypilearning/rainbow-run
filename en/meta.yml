@@ -9,6 +9,7 @@ steps:
   - title: Introduction
   - title: Build the track
   - title: Create a ball
+  - title: Control the camera
   - title: Control the ball
   - title: Add moving obstacles
   - title: Add sounds
