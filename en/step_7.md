@@ -5,7 +5,7 @@
 Create a marble using a **UV sphere** object. Add a new material to the sphere.
 </div>
 <div>
-![The output of step 2.](images/step2-output.PNG){:width="300px"}
+![The output of step 7.](images/step7-output.PNG){:width="300px"}
 </div>
 </div>
 
@@ -39,7 +39,6 @@ In the Project window, go to **Materials > ObstacleMaterials**. Drag a coloured 
 
 --- /task ---
 
-
 --- task ---
 
 **Test:** Press 'Play' and collide with the capsule to see the bounce material on both the ball and the obstacle combine to bounce the ball away from the obstacle. 
@@ -50,7 +49,8 @@ Press the 'Play' button again to stop running your project.
 
 --- task ---
 
-**Choose:** Add more capsule obstacles to the top of your track. You can add as many as you want - but remember there has to be a way for your ball to get through.
+**Choose:** Add more coloured bouncy capsule obstacles to the top of your track. You can add as many as you like - but remember there has to be a way for your ball to get through.
 
+![A series of coloured capsule obstacles at the top of the track.](images/multiple-capsules.png)
 
 --- /task ---
