@@ -5,7 +5,7 @@
 In this step, you will create a ball using a **UV sphere** object. Then style the ball and make it bounce.
 </div>
 <div>
-![The ball game object is shown in the centre of the Scene view. The view is close up.](images/bouncyball-zoom.png){:width="300px"}
+![The ball game object is shown in the centre of the Scene view. The view is close up.](images/bouncyball-ball.png){:width="300px"}
 </div>
 </div>
 
