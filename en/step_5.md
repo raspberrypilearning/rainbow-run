@@ -5,7 +5,7 @@
 In this step, you will create a script that uses the keyboard to control the ball.
 </div>
 <div>
-![The output of step 2.](images/step2-output.png){:width="300px"}
+![The output of step 5.](images/ball-jump.gif){:width="300px"}
 </div>
 </div>
 

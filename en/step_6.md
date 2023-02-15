@@ -157,4 +157,6 @@ Click on the function property and select **Reset > resetBall()** to call the re
 
 ![The ball rolls down the track, the reset button is pressed and the ball goes back to the top of the track.](images/step6-output.gif)
 
+Press the 'Play' button again to stop running your project. 
+
 --- /task ---

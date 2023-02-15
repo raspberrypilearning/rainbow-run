@@ -21,5 +21,18 @@ Set the **position** of the 'Capsule' to X=`1`, Y=`4.7`, Z=`-7`.
 
 --- /task ---
 
+--- task ---
 
+Click on the circle next to the Material property in the Capsule Controller component and select 'Bounce':
 
+![A screenshot of the Capsule Controller component showing the Bounce physic material has been added.](images/capsule-bounce.png)
+
+--- /task ---
+
+--- task ---
+
+**Test:** Press 'Play' and collide with the capsule to see the bounce material on both the ball and the obstacle combine to bounce the ball away from the obstacle. 
+
+Press the 'Play' button again to stop running your project. 
+
+--- /task ---
