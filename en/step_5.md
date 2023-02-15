@@ -31,9 +31,18 @@ Drag the new script to the 'Scripts' folder to organise your files.
 
 --- task ---
 
-Double click on 'BallController' script. Copy or type this code to make the Ball move to the left when you press <kbd>A</kbd> and right when you press <kbd>D</kbd>:
+Double click on the 'BallController' script. Copy or type this code to make the Ball move to the left when you press <kbd>A</kbd> and right when you press <kbd>D</kbd>:
 
-**Choose:** These instructions are based on using the keys <kbd>WASD</kbd> to control movement. If you want to use different keys you can change `Input.GetKey(KeyCode.A)` and `Input.GetKey(KeyCode.D)` to the keys you want to use. 
+**Choose:** These instructions are based on using the keys <kbd>WASD</kbd> to control movement. If you want to use different keys you can change `Input.GetKey("a")` and `Input.GetKey("d")` to the keys you want to use. 
+
+--- collapse ---
+---
+title: I want to use different keys
+---
+
+If you want to know the naming conventions to use for the other keys on your keyboard then you can visit the [Unity Documentation](https://docs.unity3d.com/Manual/class-InputManager.html){:target="_blank"}.
+
+--- /collapse ---
 
 --- code ---
 ---
@@ -70,12 +79,12 @@ public class BallController : MonoBehaviour
        Vector3 right =  Quaternion.AngleAxis(90, Vector3.up) * forward;
        Vector3 left = -right;
 
-       if (Input.GetKey(KeyCode.D))
+       if (Input.GetKey("d"))
        {
            rb.AddForce(right * 5f);
        }
 
-       if (Input.GetKey(KeyCode.A))
+       if (Input.GetKey("a"))
        {
            rb.AddForce(left * 5f);
        }
@@ -94,21 +103,183 @@ Find the 'Camera Transform' property of the Ball's BallController script in the 
 
 Click on the circle to the right of the Camera Transform property and choose the 'Main Camera' GameObject':
 
-![The CameraController script component on the Main Camera with Ball property dropdown menu and 'Ball' selected.](images/ball-script.png)
+![The BallController script component on the Ball with Camera Transform property dropdown menu and 'Main Camera' selected.](images/camera-transform-script.png)
 
 --- /task ---
 
 --- task ---
 
+**Test:** Save your script and switch back to the Unity Editor. Select the Game view tab and click on the 'Play' button to run your project.  
 
+Use the <kbd>A</kbd> and <kbd>D</kbd> keys to move the ball to the left and right. 
+
+![A short animation showing the ball rolling down the track and moving left and right when the A and D keys are pressed.](images/left-right.gif)
+
+Press the 'Play' button again to stop running your project. 
 
 --- /task ---
 
 --- task ---
 
+Go back to your 'BallController' script and add code to give your ball a turbo boost forward when you press  <kbd>W</kbd> and go backward when you press <kbd>S</kbd>:
 
+--- code ---
+---
+language: cs
+filename: BallController.cs
+line_numbers: true
+line_number_start: 1
+line_highlights: 26, 38-47
+---
+
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+
+public class BallController : MonoBehaviour
+{
+   private Rigidbody rb;
+   public Transform cameraTransform;
+
+   // Start is called before the first frame update
+   void Start()
+   {
+       rb = this.GetComponent<Rigidbody>();
+       rb.transform.forward = cameraTransform.forward;
+
+   }
+
+   // FixedUpdate is called once per fixed frame-rate frame
+   void FixedUpdate()
+   {  
+       // Calculates cameraTransform.forward without the y value so the ball doesn't move up and down on the Y axis
+       Vector3 forward = new Vector3(cameraTransform.forward.x, 0, cameraTransform.forward.z).normalized;
+       Vector3 right =  Quaternion.AngleAxis(90, Vector3.up) * forward;
+       Vector3 left = -right;
+       Vector3 backward = -forward;
+
+       if (Input.GetKey("d"))
+       {
+           rb.AddForce(right * 5f);
+       }
+
+       if (Input.GetKey("a"))
+       {
+           rb.AddForce(left * 5f);
+       }
+
+       if (Input.GetKey("w"))
+       {
+          rb.AddForce(forward * 10f);
+       }
+
+       if (Input.GetKey("s"))
+       {
+          rb.AddForce(backward * 2f);
+       }
+
+   } 
+}
+
+--- /code ---
 
 --- /task ---
+
+--- task ---
+
+**Test:** Save your script and switch back to the Unity Editor. Select the Game view tab and click on the 'Play' button to run your project.  
+
+Use the <kbd>W A S</kbd> and <kbd>D</kbd> keys to move the ball up, left, down and right. 
+
+Press the 'Play' button again to stop running your project. 
+
+--- /task ---
+
+--- task ---
+
+Go back to your 'BallController' script and add code to make your ball jump when you press the <kbd>space</kbd> key:
+
+--- code ---
+---
+language: cs
+filename: BallController.cs
+line_numbers: true
+line_number_start: 1
+line_highlights: 49-52
+---
+
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+
+public class BallController : MonoBehaviour
+{
+   private Rigidbody rb;
+   public Transform cameraTransform;
+
+   // Start is called before the first frame update
+   void Start()
+   {
+       rb = this.GetComponent<Rigidbody>();
+       rb.transform.forward = cameraTransform.forward;
+
+   }
+
+   // FixedUpdate is called once per fixed frame-rate frame
+   void FixedUpdate()
+   {  
+       // Calculates cameraTransform.forward without the y value so the ball doesn't move up and down on the Y axis
+       Vector3 forward = new Vector3(cameraTransform.forward.x, 0, cameraTransform.forward.z).normalized;
+       Vector3 right =  Quaternion.AngleAxis(90, Vector3.up) * forward;
+       Vector3 left = -right;
+       Vector3 backward = -forward;
+
+       if (Input.GetKey("d"))
+       {
+           rb.AddForce(right * 5f);
+       }
+
+       if (Input.GetKey("a"))
+       {
+           rb.AddForce(left * 5f);
+       }
+
+       if (Input.GetKey("w"))
+       {
+          rb.AddForce(forward * 10f);
+       }
+
+       if (Input.GetKey("s"))
+       {
+          rb.AddForce(backward * 2f);
+       }
+
+       if (Input.GetKeyDown("space"))
+       {
+          rb.AddForce(0f, 75f, 0f);
+       }
+    }
+}
+
+--- /code ---
+
+--- /task ---
+
+--- task ---
+
+**Test:** Save your script and switch back to the Unity Editor. Select the Game view tab and click on the 'Play' button to run your project.  
+
+Use the <kbd>W A S</kbd> and <kbd>D</kbd> keys to move the ball up, left, down and right. 
+
+
+![An animated image of the ball jumping on the track.](images/ball-jump.gif)
+
+Press the 'Play' button again to stop running your project. 
+
+--- /task ---
+
 
 ### Add a reset button
 

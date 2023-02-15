@@ -87,12 +87,12 @@ public class CameraController : MonoBehaviour
       prevBallPos = ball.transform.position;
   }
 
-void LateUpdate()
-   {
+  void LateUpdate()
+  {
        // Moves the camera by the same amount the ball has moved
        transform.Translate(ball.transform.position - prevBallPos, Space.World);
        prevBallPos = ball.transform.position;
-   }
+  }
 }
 
 --- /code ---
@@ -178,5 +178,7 @@ void LateUpdate()
 The camera will still follow the ball down the track but you can now control the view by moving your mouse to the left and right, up and down. 
 
 ![An animated image of the Game view with the camera following the ball down the track. The camera is rotating to the left and right.](images/camera-control.gif)
+
+Press the 'Play' button again to stop running your project. 
 
 --- /task ---

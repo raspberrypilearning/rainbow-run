@@ -157,7 +157,7 @@ You can connect vertices (points) of two different objects in Unity by holding d
 
 ![An animated image shown the top corner of the Ramp_Spiral lower edge being selected and dragged to the top corner of the Ramp_StraightDown upper edge.](images/vertex-snapping.gif)
 
-<mark>generic Vertex snapping ingredient</mark>
+[[[unity-vertex-snapping]]]
 
 An alternative way to position these two pieces together is to set the transform position of the Ramp_Spiral to X=`3`, Y=`1.5`, Z=`-3.3`. 
 
