@@ -30,7 +30,7 @@ The camera should be behind the ball and facing slightly down the ramp.
 
 --- task ---
 
-Go to the Hierarchy window. Right-click on the 'Main Camera' and select **Align With View**. 
+Go to the Hierarchy window. Right-click on the 'Main Camera' and select **Align View to Selected**. 
 
 --- /task ---
 
@@ -117,7 +117,7 @@ Click on the circle to the right of the Ball property and choose the 'Ball' Game
 
 The ball will roll down the track and the camera will follow it. 
 
-![An animated image of the Game view with the camera following the ball down the track.](images/camera-follow.gif)
+![An animated video of the Game view with the camera following the ball down the track.](images/camera-follow.gif)
 
 --- /task ---
 
