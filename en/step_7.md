@@ -13,8 +13,13 @@ Create a marble using a **UV sphere** object. Add a new material to the sphere.
 
 **Right-click** in the 'Hierarchy' and choose **3D Object > Capsule**.
 
-Set the scale of the 'Capsule' to X=`0.5`, Y=`0.5`, Z=`0.5`.
+Set the **scale** of the 'Capsule' to X=`0.5`, Y=`0.5`, Z=`0.5`.
 
-![A screenshot highlighting the stated scale values for the 'Ball' GameObject.](images/ball-scale.png)
+Set the **position** of the 'Capsule' to X=`1`, Y=`4.7`, Z=`-7`.
+
+![A screenshot the Capsule transform component showing updated values.](images/capsule-transform.png)
 
 --- /task ---
+
+
+
