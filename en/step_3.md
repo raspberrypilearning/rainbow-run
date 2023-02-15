@@ -11,7 +11,7 @@ In this step, you will create a ball using a **UV sphere** object. Then style th
 
 --- task ---
 
-**Right-click** in the 'Hierarchy' and choose 'Create->GameObject->Sphere'.
+**Right-click** in the 'Hierarchy' and choose **3D Object > Sphere**.
 
 **Name** the new Sphere object 'Ball'.
 

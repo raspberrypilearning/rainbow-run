@@ -38,7 +38,7 @@ Go to the Hierarchy window. Right-click on the 'Main Camera' and select **Align 
 
 --- task ---
 
-Go to the Inspector window for the 'Main Camera' and click on the **Add Component** button. Type `script` and select **New Script**. Name your new script `CameraController`, then press <kbd>Enter</kbd>.
+Go to the Inspector window for the 'Main Camera' and click on the **Add Component** button. Type `CameraController` and press <kbd>Enter</kbd> **twice** to create a new script called `CameraController`.
 
 ![The new CameraController script component on the Main Camera.](images/camera-component.png)
 

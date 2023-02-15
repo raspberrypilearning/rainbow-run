@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will create a script that uses the keyboard to control the ball. Then add a reset button to respawn your ball at the top of the track.
+In this step, you will create a script that uses the keyboard to control the ball.
 </div>
 <div>
 ![The output of step 2.](images/step2-output.png){:width="300px"}
@@ -17,7 +17,7 @@ Around the world people use different computer keyboard layouts and this can imp
 
 --- task ---
 
-Go to the Inspector window for the 'Ball' and click on the **Add Component** button. Type `script` and select **New Script**. Name your new script `BallController`, then press <kbd>Enter</kbd>.
+Go to the Inspector window for the 'Ball' and click on the **Add Component** button. Type `BallController` and  press <kbd>Enter</kbd> **twice** to create a new `BallController` script.
 
 --- /task ---
 
@@ -109,7 +109,7 @@ Click on the circle to the right of the Camera Transform property and choose the
 
 --- task ---
 
-**Test:** Save your script and switch back to the Unity Editor. Select the Game view tab and click on the 'Play' button to run your project.  
+**Test:** Select the Game view tab and click on the 'Play' button to run your project.  
 
 Use the <kbd>A</kbd> and <kbd>D</kbd> keys to move the ball to the left and right. 
 
@@ -121,7 +121,9 @@ Press the 'Play' button again to stop running your project.
 
 --- task ---
 
-Go back to your 'BallController' script and add code to give your ball a turbo boost forward when you press  <kbd>W</kbd> and go backward when you press <kbd>S</kbd>:
+Go back to your 'BallController' script and add code to give your ball a turbo boost forward when you press <kbd>W</kbd> and go backward when you press <kbd>S</kbd>:
+
+**Tip**: Choose the keys that suit your needs. 
 
 --- code ---
 ---
@@ -190,7 +192,7 @@ public class BallController : MonoBehaviour
 
 **Test:** Save your script and switch back to the Unity Editor. Select the Game view tab and click on the 'Play' button to run your project.  
 
-Use the <kbd>W A S</kbd> and <kbd>D</kbd> keys to move the ball up, left, down and right. 
+Use the <kbd>W A S</kbd> and <kbd>D</kbd> keys to move the ball up, left, down and right. Can you use your turbo to fly off the track?
 
 Press the 'Play' button again to stop running your project. 
 
@@ -273,24 +275,9 @@ public class BallController : MonoBehaviour
 
 Use the <kbd>W A S</kbd> and <kbd>D</kbd> keys to move the ball up, left, down and right. 
 
-
 ![An animated image of the ball jumping on the track.](images/ball-jump.gif)
 
 Press the 'Play' button again to stop running your project. 
 
 --- /task ---
 
-
-### Add a reset button
-
---- task ---
-
-
-
---- /task ---
-
---- task ---
-
-
-
---- /task ---
