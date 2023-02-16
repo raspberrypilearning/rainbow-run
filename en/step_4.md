@@ -177,6 +177,8 @@ void LateUpdate()
 
 The camera will still follow the ball down the track but you can now control the view by moving your mouse to the left and right, up and down. 
 
+**Tip:** You can change the sensitivity value in the inspector window to adjust the camera rotation speed. Remember that if you change this whilst in play mode the value will not be saved so you will need to update this once play has stopped. 
+
 ![An animated image of the Game view with the camera following the ball down the track. The camera is rotating to the left and right.](images/camera-control.gif)
 
 Press the 'Play' button again to stop running your project. 

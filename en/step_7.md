@@ -9,6 +9,8 @@ Create a marble using a **UV sphere** object. Add a new material to the sphere.
 </div>
 </div>
 
+### Bouncy capsules
+
 --- task ---
 
 **Right-click** in the 'Hierarchy' and choose **3D Object > Capsule**.
@@ -23,7 +25,7 @@ Set the **position** of the 'Capsule' to X=`1`, Y=`4.7`, Z=`-7`.
 
 --- task ---
 
-Click on the circle next to the Material property in the Capsule Controller component and select 'Bounce':
+Click on the circle next to the Material property in the Capsule Collider component and select 'Bounce':
 
 ![A screenshot of the Capsule Controller component showing the Bounce physic material has been added.](images/capsule-bounce.png)
 
@@ -49,8 +51,60 @@ Press the 'Play' button again to stop running your project.
 
 --- task ---
 
-**Choose:** Add more coloured bouncy capsule obstacles to the top of your track. You can add as many as you like - but remember there has to be a way for your ball to get through.
+Right-click on the Capsule GameObject in the Hierarchy window and select 'Duplicate'.
+
+Use the move tool to drag the new capsule to another position. 
+
+![An animated image showing the duplication and moving of a second capsule obstacle.](images/multiple-capsules.gif)
+
+**Choose:** Add more coloured bouncy capsule obstacles. You can add as many as you like - but remember there has to be a way for your ball to get through.
+
+**Tip:** You can change the scale of each capsule to add variety to your track.
 
 ![A series of coloured capsule obstacles at the top of the track.](images/multiple-capsules.png)
+
+--- /task ---
+
+### An obstacle that spins
+
+--- task ---
+
+
+
+--- /task ---
+
+--- task ---
+
+
+
+--- /task ---
+
+--- task ---
+
+
+
+--- /task ---
+
+--- task ---
+
+
+
+--- /task ---
+
+--- task ---
+
+
+
+--- /task ---
+
+--- task ---
+
+
+
+--- /task ---
+
+--- task ---
+
+
 
 --- /task ---
