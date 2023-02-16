@@ -5,23 +5,39 @@
 legend: Question 3 of 3
 ---
 
-True or False: A material can only have one texture?
+In your project you used ramp GameObjects to build a track. The pieces needed to be positioned next to each other. How could you do this?  
 
 --- choices ---
 
-- ( ) True
+- ( ) Change the values in the Transform Component
 
   --- feedback ---
 
-  Not quite, you used two textures (Noise Texture and Musgrave Texture) in your material - and you could add even more.
+  Not quite. This is one way but it is not the only way.  
 
   --- /feedback ---
 
-- (x) False
+- ( ) Use the move tool to drag your GameObject
 
   --- feedback ---
 
-  That's right. You can add multiple textures to a material to create different combined effects. 
+  Not quite. This is one way but it is not the only way. 
+
+  --- /feedback ---
+
+- ( ) Vertex Snapping using <kbd>V<kbd> on your keyboard
+
+  --- feedback ---
+
+  Not quite. This is one way but it is not the only way.  
+
+  --- /feedback ---
+
+- (x) Any of the above
+
+  --- feedback ---
+
+  That's right. You would be able to use any of these options to align your GameObjects. 
 
   --- /feedback ---
 

@@ -5,31 +5,23 @@
 legend: Question 2 of 3
 ---
 
-What is the process of taking information from a material to store in an image called in Blender? 
+A code club creator has changed the transform **position** and **rotation** values of their main camera. They now want to change their view in the Scene to match the view of the camera. Which option should they choose?
 
 --- choices ---
 
-- ( ) Musgrave
+- (x) Align View to Selected
 
   --- feedback ---
 
-    Not quite, you used a **Musgrave Texture** to customise your marble. Hint: What process did you use after you had finished your design? 
+  That's right. This will match your Scene view and your Main Camera view.
 
   --- /feedback ---
 
-- (x) Bake
+- ( ) Align with View
 
   --- feedback ---
 
-  That's right, the **Bake** process takes data and stores the result. In this case it takes data from the material and stores the result in an image.
-
-  --- /feedback ---
-
-- ( ) ColorRamp
-
-  --- feedback ---
-
-  Not quite, you used a **ColorRamp** to recolour textures by adding to and adjusting the colours used. Hint: What process did you use after you had finished your design? 
+  Not quite. This will match your Main Camera view to your Scene view.
 
   --- /feedback ---
 

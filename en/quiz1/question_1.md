@@ -1,4 +1,4 @@
-## Reflection
+## Quick quiz
 
 Answer these three questions to get your ‘Rainbow run’ badge.
 
@@ -14,39 +14,39 @@ Have fun!
 legend: Question 1 of 3
 ---
 
-Procedural textures are created by mathematical rules but why are they used in 3D modelling?
+Which component do you add to a GameObject to make the GameObject be pulled by gravity?
 
 --- choices ---
 
-- ( ) They are scalable
+- ( ) Collider
 
   --- feedback ---
 
-  It's true that they are scalable so can be used on large or small objects without loss of quality - but that is not the only reason. 
+  Try again! A collider is used in Unity to detect collisions. 
 
   --- /feedback ---
 
-- ( ) They can cover any surface shape
+- ( ) Script
 
   --- feedback ---
 
-  It's true that they can cover any surface regardless of shape - but that is not the only reason. 
+  Not quite. Unity has a component that will allow you to use gravity without having to write any extra code in a script. 
 
   --- /feedback ---
 
-- ( ) They are easily editable
+- (x) RigidBody
 
   --- feedback ---
 
-  It's true that they can be quickly edited to change their whole appearance - but that is not the only reason. 
+  That's right. One of the reasons to add a RigidBody is to use gravity. 
 
   --- /feedback ---
 
-- (x) All of the above
+- ( ) Material
 
   --- feedback ---
 
-  That's correct. Procedural textures are scalable, can cover any surface and are easy to edit. 
+  Not quite. You can add Physic Materials to GameObjects to create friction and bounciness. You added a different component to use gravity. 
 
   --- /feedback ---
 
