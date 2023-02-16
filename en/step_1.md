@@ -10,9 +10,7 @@ You will:
 
 --- no-print ---
 
-Control the camera by clicking the left mouse button and moving the mouse. Control the movement of the ball using WASD (or ZQSD) or the arrow keys. Use <kbd>Space</kbd> to jump. 
-
-<mark>Check this matches the keys we support.</mark>
+Control the camera by clicking the left mouse button and moving the mouse. Control the movement of the ball using <kbd>WASD</kbd> (or <kbd>ZQSD</kbd>) or the arrow keys. Use <kbd>Space</kbd> to jump. 
 
 <iframe allowtransparency="true" width="710" height="450" src="https://explore-a-3d-world-basic.rpfilt.repl.co" frameborder="0"></iframe>
 
