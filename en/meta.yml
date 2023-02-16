@@ -1,6 +1,14 @@
 title: Rainbow run
 hero_image: images/banner.png
 description: Create a track for a ball to roll along. Add obstacles and a goal for the ball to reach.
+meta_title: Rainbow run
+meta_description: Create a track for a ball to roll along. Add obstacles and a goal for the ball to reach.
+keywords:
+- unity
+- ball
+- marble
+- 3d
+- game
 version: 4
 listed: false
 copyedit: false
