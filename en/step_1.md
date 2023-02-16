@@ -12,7 +12,7 @@ You will:
 
 Control the camera by clicking the left mouse button and moving the mouse. Control the movement of the ball using <kbd>WASD</kbd> (or <kbd>ZQSD</kbd>) or the arrow keys. Use <kbd>Space</kbd> to jump. 
 
-<iframe allowtransparency="true" width="710" height="450" src="https://beckyfranks.github.io/Explore1RainbowRun/index.html" frameborder="0"></iframe>
+<iframe allowtransparency="true" width="710" height="450" src="https://rainbow-run.rpfilt.repl.co/" frameborder="0"></iframe>
 
 --- /no-print ---
 
