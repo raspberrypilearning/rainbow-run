@@ -13,7 +13,6 @@ steps:
   - title: Control the ball
   - title: Add a reset button
   - title: Add moving obstacles
-  - title: Add sounds
   - title: Reflection
   - title: Upgrade
   - title: What next?

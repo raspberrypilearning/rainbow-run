@@ -1,19 +1,9 @@
-## Upgrade your project
+## What next?
 
-Now you can customise and extend your Rainbow run.
+If you are following the [More Unity](https://projects.raspberrypi.org/en/raspberrypi/more-unity) path, you can move on to the [Disco dance floor](https://projects.raspberrypi.org/en/projects/disco-dance-floor) project. In this project, you will make a tiltable disco dance floor with tiles that light-up and play musical notes when a ball rolls over them.
 
-You can: 
-+
-+
+![An image of the finished Disco dance floor project showing coloured tiles and a ball with mirror ball materia. The floor is tilted at an angle.](images/disco-dance-floor.png)
 
-<iframe allowtransparency="true" width="710" height="450" src="https://explore-a-3d-world-extended.rpfilt.repl.co" frameborder="0"></iframe>
+If you want to have more fun exploring Unity, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=unity).
 
---- collapse ---
-
----
-title: Completed project
----
-
-You can download the basic and extended projects as packages along with the WebGL projects from the  [zipped solutions directory](https://rpf.io/p/en/rainbow-run-get){:target="_blank"}.
-
---- /collapse ---
+If you want to create your own material to add to your Rainbow run ball you could try out the [Blender - Add material effects to a marble](https://projects.raspberrypi.org/en/projects/blender-marble) project. 
