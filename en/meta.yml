@@ -6,7 +6,7 @@ listed: false
 copyedit: false
 last_tested: "2022-05-19"
 steps:
-  - title: Introduction
+  - title: You will make
   - title: Build the track
   - title: Create a ball
     completion:
