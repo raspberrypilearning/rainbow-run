@@ -2,10 +2,10 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Create a marble using a **UV sphere** object. Add a new material to the sphere.
+In this step, you will create bouncy and spinning obstacles along your track.
 </div>
 <div>
-![The output of step 7.](images/step7-output.PNG){:width="300px"}
+![An animated image showing the spinning capsule rotating around the Y axis.](images/spinning-capsule.gif){:width="300px"}
 </div>
 </div>
 
