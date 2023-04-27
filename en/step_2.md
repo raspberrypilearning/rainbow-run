@@ -170,9 +170,7 @@ title: Why are the coordinates for both objects the same?
 
 Objects in Unity have a **Pivot point** used for the Transform position coordinates.
 
-**Tip:** Click on an object in Scene view to see the Transform gizmo position. 
-
-In this case the Pivot point for 'StraightDown' is at the top edge and the Pivot point for 'Spiral' is at the bottom edge. This means the coordinates are the same for both pieces. 
+In this case the Pivot point for 'StraightDown' is at the top of the ramp and the Pivot point for 'Spiral' is at the bottom. This means the coordinates are the same for both pieces. 
 
 ![Two images side by side showing the joining area of both objects. The first with the transform gizmo on the 'StraightDown' , the second with the transform gizmo of the 'Spiral'.](images/pivot-point.png)
 

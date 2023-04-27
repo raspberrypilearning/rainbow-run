@@ -23,7 +23,7 @@ In this step, you will create a ball using a **UV sphere** object. Then style th
 
 Set the scale of the 'Ball' to X=`0.25`, Y=`0.25`, Z=`0.25`.
 
-**Tip:** You can use the 'link' button next to the scale property to change all the values at once. Just make sure to unlink them afterwards.
+**Tip:** You can use the 'link' button next to the scale property to change all the values at once.
 
 ![A screenshot highlighting the 'link' icon and the stated scale values for the 'Ball' GameObject.](images/ball-scale.png)
 
@@ -51,6 +51,20 @@ With the 'Ball' GameObject selected, choose 'Add Component' in the inspector win
 
 --- task ---
 
+Move your camera so you can see the whole track and the Ball. 
+
+You can do this using the **transform gizmo** and **rotation gizmo** on the `MainCamera` GameObject. 
+
+Or you can set the position and rotation in the Inspector to: 
+
+Position X=`11`, Y=`7`, Z=`9`
+
+Rotation: X=`15`, Y=`-130`, Z=`0`
+
+--- /task ---
+
+--- task ---
+
 Right-click on the 'MainCamera' object in the 'Hierarchy'.
 
 Choose 'Align with view'. This will match your Scene view and your Main Camera view. 
@@ -61,7 +75,9 @@ Choose 'Align with view'. This will match your Scene view and your Main Camera v
 
 --- task ---
 
-Click **Play** and watch your ball roll slowly down the ramp. 
+Click **Play** and watch your ball roll slowly down the ramp.
+
+Press the ‘Play’ button again to stop running your project.
 
 --- /task ---
 
@@ -117,7 +133,7 @@ Click **Play** and watch your ball bounce as it lands on the ramp.
 
 --- task ---
 
-In the Project window go to **Materials > BallMaterials**. 
+In the Project window go to **Materials**. 
 
 Right-click in the folder and select **Create > Material**.
 

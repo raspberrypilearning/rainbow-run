@@ -61,6 +61,8 @@ public class BallController : MonoBehaviour
 {
    private Rigidbody rb;
    public Transform cameraTransform;
+   public string rightKey;
+   public string leftKey;
 
    // Start is called before the first frame update
    void Start()
@@ -78,12 +80,12 @@ public class BallController : MonoBehaviour
        Vector3 right =  Quaternion.AngleAxis(90, Vector3.up) * forward;
        Vector3 left = -right;
 
-       if (Input.GetKey("d"))
+       if (Input.GetKey(rightKey))
        {
            rb.AddForce(right * 5f);
        }
 
-       if (Input.GetKey("a"))
+       if (Input.GetKey(leftKey))
        {
            rb.AddForce(left * 5f);
        }
@@ -103,6 +105,14 @@ Find the 'Camera Transform' property of the Ball's BallController script in the 
 Click on the circle to the right of the Camera Transform property and choose the 'Main Camera' GameObject':
 
 ![The BallController script component on the Ball with Camera Transform property dropdown menu and 'Main Camera' selected.](images/camera-transform-script.png)
+
+You can also set which keys you would like to use for the right and left controls. 
+
+You can use `d` for right and `a` for left - the letters **have to** be lowercase. 
+
+If you would like to use the arrow keys you can enter `right` and `left`.
+
+![The BallController script component on the Ball with Camera Transform property set to `MainCamera`, the `rightKey` property is set to 'd' and the `leftKey` property is set to 'a'.](images/ball-controls.png)
 
 --- /task ---
 
@@ -129,39 +139,46 @@ Go back to your 'BallController' script and add code to FixedUpdate to give your
 language: cs
 filename: BallController.cs
 line_numbers: true
-line_number_start: 1
-line_highlights: 8, 20-28
+line_number_start: 7
+line_highlights: 11, 12, 37-43
 ---
-    // FixedUpdate is called once per fixed frame-rate frame
-   void FixedUpdate()
-   {  
-       // Calculates cameraTransform.forward without the y value so the ball doesn't move up and down on the Y axis
-       Vector3 forward = new Vector3(cameraTransform.forward.x, 0, cameraTransform.forward.z).normalized;
-       Vector3 right =  Quaternion.AngleAxis(90, Vector3.up) * forward;
-       Vector3 left = -right;
-       Vector3 backward = -forward;
+private Rigidbody rb;
+public Transform cameraTransform;
+public string rightKey;
+public string leftKey;
+public string upKey;
+public string downkey;
 
-       if (Input.GetKey("d"))
-       {
-           rb.AddForce(right * 5f);
-       }
+// Start is called before the first frame update
+void Start()
+{
+    rb = this.GetComponent<Rigidbody>();
+    rb.transform.forward = cameraTransform.forward;
+}
 
-       if (Input.GetKey("a"))
-       {
-           rb.AddForce(left * 5f);
-       }
+// Update is called once per frame
+void FixedUpdate()
+{
+    Vector3 forward = new Vector3(cameraTransform.forward.x, 0, cameraTransform.forward.z).normalized;
+    Vector3 right = Quaternion.AngleAxis(90, Vector3.up) * forward;
+    Vector3 left = -right;
+    Vector3 backward = -forward;
 
-       if (Input.GetKey("w"))
-       {
-          rb.AddForce(forward * 10f);
-       }
+    if (Input.GetKey(rightKey)){
+        rb.AddForce(right * 5f);
+    }
 
-       if (Input.GetKey("s"))
-       {
-          rb.AddForce(backward * 2f);
-       }
+    if (Input.GetKey(leftKey)){
+        rb.AddForce(left * 5f);
+    }
 
-   } 
+    if (Input.GetKey(upKey)){
+        rb.AddForce(forward * 10f);
+    }
+
+    if (Input.GetKey(downKey)){
+        rb.AddForce(backward * 2f);
+    }
 }
 
 --- /code ---
@@ -187,15 +204,15 @@ Go back to your 'BallController' script and add code to make your ball jump when
 language: cs
 filename: BallController.cs
 line_numbers: true
-line_number_start: 1
-line_highlights: 11-14
+line_number_start: 37
+line_highlights: 45-47
 ---
-       if (Input.GetKey("w"))
+       if (Input.GetKey(upKey))
        {
           rb.AddForce(forward * 10f);
        }
 
-       if (Input.GetKey("s"))
+       if (Input.GetKey(downKey))
        {
           rb.AddForce(backward * 2f);
        }
