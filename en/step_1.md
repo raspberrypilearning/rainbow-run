@@ -27,10 +27,10 @@ This project requires the Unity Editor, which can be installed from the Unity Hu
 
 You can follow our [Unity guide](https://projects.raspberrypi.org/en/projects/unity-guide){:target="_blank"} to install Unity Hub and the Unity Editor for your operating system.
 
-You will also need to download the [Unity starter package](https://rpf.io/p/en/rainbow-run-go){:target="_blank"} of assets before starting.
+You will also need to download the [More Unity starter package](https://rpf.io/p/en/rainbow-run-go){:target="_blank"} of assets before starting.
 
 
 ### Recommended previous experience
 
-The projects in this More Unity path are suitable for creators with some experience of Unity. If you are new to Unity our [Introduction to Unity: 3D Objects, Character Controllers, Colliders, Text and Buttons](https://projects.raspberrypi.org/en/raspberrypi/unity-intro) path is a great place to start.
+The projects in this More Unity path are suitable for creators with some experience of Unity. If you are new to Unity our [Introduction to Unity path](https://projects.raspberrypi.org/en/raspberrypi/unity-intro) is a great place to start and learn all about; 3D Objects, Character Controllers, Colliders, Text and Buttons.
 

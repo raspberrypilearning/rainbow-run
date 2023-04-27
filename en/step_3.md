@@ -23,7 +23,9 @@ In this step, you will create a ball using a **UV sphere** object. Then style th
 
 Set the scale of the 'Ball' to X=`0.25`, Y=`0.25`, Z=`0.25`.
 
-![A screenshot highlighting the stated scale values for the 'Ball' GameObject.](images/ball-scale.png)
+**Tip:** You can use the 'link' button next to the scale property to change all the values at once. Just make sure to unlink them afterwards.
+
+![A screenshot highlighting the 'link' icon and the stated scale values for the 'Ball' GameObject.](images/ball-scale.png)
 
 --- /task ---
 

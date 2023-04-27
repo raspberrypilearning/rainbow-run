@@ -65,6 +65,8 @@ A new file will appear in the Assets folder in the Project window:
 
 ![Project window with Rainbow run scene in the Assets folder.](images/rainbow-run-scene.png)
 
+Drag the new `Rainbow run` Scene into the 'Scenes' folder to organise your files.
+
 --- /task ---
 
 ### Add a floor
@@ -103,7 +105,7 @@ Your scene should look like this:
 
 Right-click on **Persp** in the Scene gizmo and choose 'Top' to switch to top-down view:
 
-![Then Persp menu is selected with the 'Top' option highlighted.](images/persp-top.png)
+![The Persp menu is selected with the 'Top' option highlighted.](images/persp-top.png)
 
 You should now see your project from the top view. 
 
@@ -127,7 +129,7 @@ Your goal should now look like this:
 
 --- task ---
 
-From the **Parts** folder, drag a 'Ramp_StraightDown' into the Scene view. Position the ramp in front of the goal. 
+From the **Parts** folder, drag a 'StraightDown' into the Scene view. Position the ramp in front of the goal. 
 
 **Tip:** You can either use the 'Move' tool to position the ramp or enter the transform position numbers X=`3`, Y=`1.5`, Z=`-3.3`:
 
@@ -151,15 +153,15 @@ You can move your view of the scene to see it from different angles. The best an
 
 --- task ---
 
-From the **Parts** folder, drag a 'Ramp_Spiral' into the Scene view. Position the spiral so it connects closely with the Ramp_StraightDown part. 
+From the **Parts** folder, drag a 'Spiral' into the Scene view. Position the spiral so it connects closely with the 'StraightDown' part. 
 
 You can connect vertices (points) of two different objects in Unity by holding down the **V** key, hovering close to a vertex, and then dragging it towards the object you want to align with.
 
-![An animated image shown the top corner of the Ramp_Spiral lower edge being selected and dragged to the top corner of the Ramp_StraightDown upper edge.](images/vertex-snapping.gif)
+![An animated image shown the top corner of the Spiral lower edge being selected and dragged to the top corner of the StraightDown upper edge.](images/vertex-snapping.gif)
 
 [[[unity-vertex-snapping]]]
 
-An alternative way to position these two pieces together is to set the transform position of the Ramp_Spiral to X=`3`, Y=`1.5`, Z=`-3.3`. 
+An alternative way to position these two pieces together is to set the transform position of the Spiral to X=`3`, Y=`1.5`, Z=`-3.3`. 
 
 --- collapse ---
 ---
@@ -170,9 +172,9 @@ Objects in Unity have a **Pivot point** used for the Transform position coordina
 
 **Tip:** Click on an object in Scene view to see the Transform gizmo position. 
 
-In this case the Pivot point for 'Ramp_StraightDown' is at the top edge and the Pivot point for 'Ramp_Spiral' is at the bottom edge. This means the coordinates are the same for both pieces. 
+In this case the Pivot point for 'StraightDown' is at the top edge and the Pivot point for 'Spiral' is at the bottom edge. This means the coordinates are the same for both pieces. 
 
-![Two images side by side showing the joining area of both objects. The first with the transform gizmo on the 'Ramp_StraightDown' , the second with the transform gizmo of the 'Ramp_Spiral'.](images/pivot-point.png)
+![Two images side by side showing the joining area of both objects. The first with the transform gizmo on the 'StraightDown' , the second with the transform gizmo of the 'Spiral'.](images/pivot-point.png)
 
 --- /collapse ---
 
@@ -180,7 +182,7 @@ In this case the Pivot point for 'Ramp_StraightDown' is at the top edge and the 
 
 --- task ---
 
-From the **Parts** folder, drag a 'Ramp_CurveDown' into the Scene view. Position the curved ramp so it connects closely with the Ramp_Spiral part. 
+From the **Parts** folder, drag a 'CurveDown' into the Scene view. Position the curved ramp so it connects closely with the 'Spiral' part. 
 
 Use **Vertex snapping** to position your part.
 
@@ -202,7 +204,7 @@ Your course should look like the image below. This screenshot was taken from the
 
 **Choose:** a material for each piece in your track. 
 
-In the Project window, go to **Materials > ObstacleMaterials**. Drag a coloured material onto each piece in the Scene view.   
+In the Project window, go to **Materials**. Drag a coloured material onto each piece in the Scene view.   
 
 We added rainbow colours. What will you choose? 
 
