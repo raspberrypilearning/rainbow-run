@@ -4,7 +4,7 @@
 legend: Question 2 of 3
 ---
 
-A code club creator has changed the transform **position** and **rotation** values of their main camera. They now want to change their view in the Scene to match the view of the camera. Which option should they choose?
+A creator has changed the transform **position** and **rotation** values of their main camera. They now want to change their view in the Scene to match the view of the camera. Which option should they choose?
 
 --- choices ---
 

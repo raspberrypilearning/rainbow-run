@@ -112,6 +112,8 @@ You can use `d` for right and `a` for left - the letters **have to** be lowercas
 
 If you would like to use the arrow keys you can enter `right` and `left`.
 
+Use whichever keys make sense for your keyboard.
+
 ![The BallController script component on the Ball with Camera Transform property set to `MainCamera`, the `rightKey` property is set to 'd' and the `leftKey` property is set to 'a'.](images/ball-controls.png)
 
 --- /task ---
@@ -189,54 +191,10 @@ void FixedUpdate()
 
 **Test:** Save your script and switch back to the Unity Editor. Select the Game view tab and click on the 'Play' button to run your project.  
 
-Use the <kbd>W A S</kbd> and <kbd>D</kbd> keys to move the ball up, left, down and right. Can you use your turbo to fly off the track?
+Use the keys you set in the Inspector to move the ball up, left, down and right. Can you use your turbo to fly off the track?
 
-Press the 'Play' button again to stop running your project. 
+Press the 'Play' button again to stop running your project.
 
---- /task ---
-
---- task ---
-
-Go back to your 'BallController' script and add code to make your ball jump when you press the <kbd>space</kbd> key:
-
---- code ---
----
-language: cs
-filename: BallController.cs
-line_numbers: true
-line_number_start: 37
-line_highlights: 45-47
----
-       if (Input.GetKey(upKey))
-       {
-          rb.AddForce(forward * 10f);
-       }
-
-       if (Input.GetKey(downKey))
-       {
-          rb.AddForce(backward * 2f);
-       }
-
-       if (Input.GetKeyDown("space"))
-       {
-          rb.AddForce(0f, 75f, 0f);
-       }
-    }
-}
-
---- /code ---
+**Debug:** if your left or backwards keys are not working, double check you have the `-` in front of `right` and `forward` when setting the variables.
 
 --- /task ---
-
---- task ---
-
-**Test:** Save your script and switch back to the Unity Editor. Select the Game view tab and click on the 'Play' button to run your project.  
-
-Use the <kbd>W A S</kbd> and <kbd>D</kbd> keys to move the ball up, left, down and right. 
-
-![An animated image of the ball jumping on the track.](images/jump-ball.gif)
-
-Press the 'Play' button again to stop running your project. 
-
---- /task ---
-
