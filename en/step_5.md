@@ -67,7 +67,7 @@ public class BallController : MonoBehaviour
    // Start is called before the first frame update
    void Start()
    {
-       rb = this.GetComponent<Rigidbody>();
+       rb = GetComponent<Rigidbody>();
        rb.transform.forward = cameraTransform.forward;
 
    }
@@ -142,19 +142,19 @@ language: cs
 filename: BallController.cs
 line_numbers: true
 line_number_start: 7
-line_highlights: 11, 12, 37-43
+line_highlights: 9, 11, 26, 27, 37-43
 ---
 private Rigidbody rb;
 public Transform cameraTransform;
-public string rightKey;
-public string leftKey;
 public string upKey;
+public string leftKey;
 public string downkey;
+public string rightKey;
 
 // Start is called before the first frame update
 void Start()
 {
-    rb = this.GetComponent<Rigidbody>();
+    rb = GetComponent<Rigidbody>();
     rb.transform.forward = cameraTransform.forward;
 }
 
@@ -189,7 +189,9 @@ void FixedUpdate()
 
 --- task ---
 
-**Test:** Save your script and switch back to the Unity Editor. Select the Game view tab and click on the 'Play' button to run your project.  
+**Test:** Save your script and switch back to the Unity Editor. Click on the 'Ball' GameObject and set the keys you want to use for forward and backwards.
+
+Select the Game view tab and click on the 'Play' button to run your project.  
 
 Use the keys you set in the Inspector to move the ball up, left, down and right. Can you use your turbo to fly off the track?
 
