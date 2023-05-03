@@ -33,12 +33,16 @@ Drag the new script to the 'Scripts' folder to organise your files.
 
 Double click on the 'BallController' script. Copy or type this code to make the Ball move to the left when you press <kbd>A</kbd> and right when you press <kbd>D</kbd>:
 
-**Choose:** These instructions are based on using the keys <kbd>WASD</kbd> to control movement. If you want to use different keys you can change `Input.GetKey("a")` and `Input.GetKey("d")` to the keys you want to use. 
+**Choose:** These instructions are based on using the keys <kbd>WASD</kbd> to control movement. If you want to use different keys you can change the Inspector values to the keys you want to use. 
 
 --- collapse ---
 ---
 title: I want to use different keys
 ---
+
+You can set whickever keys you would like to use in the Inspector. For letter keys just make sure the letters are **lower case**. 
+
+You can also use the arrows by entering `up` and `down` into the Inspector.
 
 If you want to know the naming conventions to use for the other keys on your keyboard then you can visit the [Unity Documentation](https://docs.unity3d.com/Manual/class-InputManager.html){:target="_blank"}.
 
