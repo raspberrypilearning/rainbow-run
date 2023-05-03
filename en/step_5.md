@@ -148,7 +148,7 @@ private Rigidbody rb;
 public Transform cameraTransform;
 public string upKey;
 public string leftKey;
-public string downkey;
+public string downKey;
 public string rightKey;
 
 // Start is called before the first frame update
