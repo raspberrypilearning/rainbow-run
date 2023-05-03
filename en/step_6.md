@@ -79,7 +79,7 @@ Press the 'Play' button again to stop running your project.
 
 --- task ---
 
-Click on the 'Ball' GameObject in the Hierarchy window. Press <kbd>shift</kbd> and <kbd>f</kbd> on your keyboard to focus the Scene view on the Ball: 
+Click on the 'Ball' GameObject in the Hierarchy window. Press <kbd>Shift</kbd> and <kbd>F</kbd> on your keyboard to focus the Scene view on the Ball: 
 
 Go to the Inspector and click on the **Add Component** button. Type `Reset` and press <kbd>Enter</kbd> **twice** to create a new script called `Reset`.
 
