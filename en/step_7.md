@@ -5,7 +5,7 @@
 In this step, you will create bouncy and spinning obstacles along your track.
 </div>
 <div>
-![An animated image showing the spinning capsule rotating around the Y axis.](images/spinning-capsule.gif){:width="300px"}
+![An animated image showing the spinning capsule rotating around the Y axis.](images/spinning-cube.gif){:width="300px"}
 </div>
 </div>
 
