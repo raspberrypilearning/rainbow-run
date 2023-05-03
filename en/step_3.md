@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will create a ball using a **UV sphere** object. Then style the ball and make it bounce.
+In this step, you will create a ball using a **Sphere** object. Then style the ball and make it bounce.
 </div>
 <div>
 ![The ball game object is shown in the centre of the Scene view. The view is close up.](images/bouncyball-ball.png){:width="300px"}
