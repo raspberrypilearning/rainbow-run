@@ -158,7 +158,7 @@ line_highlights: 9, 11, 27, 39-47
         rb.transform.forward = cameraTransform.forward;
     }
 
-    // Update is called once per frame
+    // FixedUpdate is called once per frame
     void FixedUpdate()
     {
         Vector3 forward = new Vector3(cameraTransform.forward.x, 0, cameraTransform.forward.z).normalized;
@@ -193,7 +193,7 @@ line_highlights: 9, 11, 27, 39-47
 
 --- task ---
 
-**Test:** Save your script and switch back to the Unity Editor. Click on the 'Ball' GameObject and set the keys you want to use for forward and backwards.
+**Test:** Save your script and switch back to the Unity Editor. Click on the 'Ball' GameObject and set the keys you want to use for forward and backward.
 
 Select the Game view tab and click on the 'Play' button to run your project.  
 
@@ -201,6 +201,6 @@ Use the keys you set in the Inspector to move the ball up, left, down and right.
 
 Press the 'Play' button again to stop running your project.
 
-**Debug:** if your left or backwards keys are not working, double check you have the `-` in front of `right` and `forward` when setting the variables.
+**Debug:** if your left or backward keys are not working, double check you have the `-` in front of `right` and `forward` when setting the variables.
 
 --- /task ---
