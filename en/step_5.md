@@ -10,7 +10,7 @@ In this step, you will create a script that uses the keyboard to control the bal
 </div>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Around the world people use different computer keyboard layouts and this can impact the common keys used for navigation. An example of this is in the <span style="color: #0faeb0">**<kbd>QWERTY</kbd>**</span> and <span style="color: #0faeb0">**<kbd>AZERTY</kbd>**</span> layouts. A <kbd>QWERTY</kbd> keyboard user will likely use keys <span style="color: #0faeb0">**<kbd>WASD</kbd>**</span> to move around in a game but an <kbd>AZERTY</kbd> keyboard user will likely use keys <span style="color: #0faeb0">**<kbd>ZQSD</kbd>**</span>. These are just two examples, which keys would you use? 
+Around the world people use different computer keyboard layouts and this can impact the common keys used for navigation. An example of this is in the <span style="color: #0faeb0">**<kbd>QWERTY</kbd>**</span> and <span style="color: #0faeb0">**<kbd>AZERTY</kbd>**</span> layouts. A <kbd>QWERTY</kbd> keyboard user will likely use keys <span style="color: #0faeb0">**<kbd>WASD</kbd>**</span> to move around in a game but an <kbd>AZERTY</kbd> keyboard user will likely use keys <span style="color: #0faeb0">**<kbd>ZQSD</kbd>**</span>. These are just two examples. Which keys would you use? 
 </p>
 
 ### Apply force on key press
@@ -108,7 +108,7 @@ Click on the circle to the right of the Camera Transform property and choose the
 
 You can also set which keys you would like to use for the right and left controls. 
 
-You can use `d` for right and `a` for left - the letters **have to** be lowercase. 
+You can use `d` for right and `a` for left - the letters **must** be lowercase. 
 
 If you would like to use the arrow keys you can enter `right` and `left`.
 
@@ -142,46 +142,50 @@ language: cs
 filename: BallController.cs
 line_numbers: true
 line_number_start: 7
-line_highlights: 9, 11, 26, 27, 37-43
+line_highlights: 9, 11, 27, 39-47
 ---
-private Rigidbody rb;
-public Transform cameraTransform;
-public string upKey;
-public string leftKey;
-public string downKey;
-public string rightKey;
+    private Rigidbody rb;
+    public Transform cameraTransform;
+    public string upKey;
+    public string leftKey;
+    public string downKey;
+    public string rightKey;
 
-// Start is called before the first frame update
-void Start()
-{
-    rb = GetComponent<Rigidbody>();
-    rb.transform.forward = cameraTransform.forward;
-}
-
-// Update is called once per frame
-void FixedUpdate()
-{
-    Vector3 forward = new Vector3(cameraTransform.forward.x, 0, cameraTransform.forward.z).normalized;
-    Vector3 right = Quaternion.AngleAxis(90, Vector3.up) * forward;
-    Vector3 left = -right;
-    Vector3 backward = -forward;
-
-    if (Input.GetKey(rightKey)){
-        rb.AddForce(right * 5f);
+    // Start is called before the first frame update
+    void Start()
+    {
+        rb = GetComponent<Rigidbody>();
+        rb.transform.forward = cameraTransform.forward;
     }
 
-    if (Input.GetKey(leftKey)){
-        rb.AddForce(left * 5f);
-    }
+    // Update is called once per frame
+    void FixedUpdate()
+    {
+        Vector3 forward = new Vector3(cameraTransform.forward.x, 0, cameraTransform.forward.z).normalized;
+        Vector3 right = Quaternion.AngleAxis(90, Vector3.up) * forward;
+        Vector3 left = -right;
+        Vector3 backward = -forward;
 
-    if (Input.GetKey(upKey)){
-        rb.AddForce(forward * 10f);
-    }
+        if (Input.GetKey(rightKey))
+        {
+            rb.AddForce(right * 5f);
+        }
 
-    if (Input.GetKey(downKey)){
-        rb.AddForce(backward * 2f);
+        if (Input.GetKey(leftKey))
+        {
+            rb.AddForce(left * 5f);
+        }
+
+        if (Input.GetKey(upKey))
+        {
+            rb.AddForce(forward * 10f);
+        }
+
+        if (Input.GetKey(downKey))
+        {
+            rb.AddForce(backward * 2f);
+        }
     }
-}
 
 --- /code ---
 

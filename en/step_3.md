@@ -43,9 +43,9 @@ Alternatively, you can use the transform positions X=`-1`, Y=`6`, Z=`-7.7`.
 
 --- task ---
 
-With the 'Ball' GameObject selected, choose 'Add Component' in the inspector window and enter the text 'RigidBody'. Select the 'RigidBody' component. This adds a gravity effect to your ball. 
+With the 'Ball' GameObject selected, choose 'Add Component' in the inspector window and enter the text 'Rigidbody'. Select the 'Rigidbody' component. This adds a gravity effect to your ball. 
 
-![A screenshot showing the RigidBody component selected in the inspector window.](images/rigid-body.png)
+![A screenshot showing the Rigidbody component selected in the inspector window.](images/rigid-body.png)
 
 --- /task ---
 
@@ -53,7 +53,7 @@ With the 'Ball' GameObject selected, choose 'Add Component' in the inspector win
 
 Move your camera so you can see the whole track and the Ball. 
 
-You can do this using the **transform gizmo** and **rotation gizmo** on the `MainCamera` GameObject. 
+You can do this using the **transform gizmo** and **rotation gizmo** on the `Main Camera` GameObject. 
 
 Or you can set the position and rotation in the Inspector to: 
 
@@ -65,7 +65,7 @@ Rotation: X=`15`, Y=`-130`, Z=`0`
 
 --- task ---
 
-Right-click on the 'MainCamera' object in the 'Hierarchy'.
+Right-click on the 'Main Camera' object in the 'Hierarchy'.
 
 Choose 'Align with view'. This will match your Scene view and your Main Camera view. 
 
@@ -157,7 +157,7 @@ Click on the texture to add it to your new material.
 
 Drag your new 'BouncyBall' material to the ball in the Scene view. 
 
-**Tip:** Use <kbd>shift</kbd> and <kbd>f</kbd> on your keyboard to zoom in to the ball object so you can see the material clearly. 
+**Tip:** Use <kbd>Shift</kbd> and <kbd>F</kbd> on your keyboard to zoom in to the ball object so you can see the material clearly. 
 
 ![The ball game object is shown in the centre of the Scene view. The view is close up.](images/bouncyball-ball.png)
 

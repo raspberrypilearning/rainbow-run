@@ -135,7 +135,7 @@ language: cs
 filename: CameraController.cs
 line_numbers: true
 line_number_start: 1
-line_highlights: 7, 20, 21, 22, 23
+line_highlights: 7, 20, 21, 22, 23, 24, 25, 26, 27
 ---
 
 using System.Collections;
