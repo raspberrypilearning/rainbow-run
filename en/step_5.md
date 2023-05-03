@@ -40,9 +40,9 @@ Double click on the 'BallController' script. Copy or type this code to make the 
 title: I want to use different keys
 ---
 
-You can set whickever keys you would like to use in the Inspector. For letter keys just make sure the letters are **lower case**. 
+You can set which ever keys you would like to use in the Inspector. For letter keys just make sure the letters are **lower case**. 
 
-You can also use the arrows by entering `up` and `down` into the Inspector.
+You can also use the arrows by entering `left` and `right` into the Inspector.
 
 If you want to know the naming conventions to use for the other keys on your keyboard then you can visit the [Unity Documentation](https://docs.unity3d.com/Manual/class-InputManager.html){:target="_blank"}.
 
