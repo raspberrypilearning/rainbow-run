@@ -111,7 +111,7 @@ Drag the new script to the 'Scripts' folder to organise your files.
 
 --- task ---
 
-Double click on the 'Spin' script. Copy or type this code to make the capsule spin when your game is in play:
+Double click on the 'Spin' script. Copy or type this code to make the cube spin when your game is in play:
 
 --- code ---
 ---
