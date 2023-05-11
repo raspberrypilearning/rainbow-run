@@ -77,9 +77,9 @@ Set the **rotation** of the 'Cube' to X=`10`, Y=`0`, Z=`0`.
 
 Set the **scale** of the 'Cube' to X=`1.2`, Y=`0.4`, Z=`0.2`.
 
-![A screenshot the Cube transform component showing updated values.](images/spinning-cube-properties.png)
+![A screenshot of the Cube transform component showing updated values.](images/spinning-cube-properties.png)
 
-![A screenshot the Cube at the bottom of the ramp.](images/spin-location.png)
+![A screenshot of the Cube at the bottom of the ramp.](images/spin-location.png)
 
 --- /task ---
 
@@ -184,4 +184,3 @@ Press the 'Play' button again to stop running your project.
 **Choose:** You can use the Spin component to change the Rotation on X, Y or Z. Try spinning on a different axis or changing the value to increase or decrease the speed. 
 
 --- /task ---
-
