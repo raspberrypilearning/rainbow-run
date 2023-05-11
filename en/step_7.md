@@ -71,7 +71,7 @@ Use the move tool to drag the new capsule to another position.
 
 **Right-click** in the 'Hierarchy' and choose **3D Object > Cube**.
 
-Set the **position** of the 'Cube' to X=`3`, Y=`0.8`, Z=`4.2`.
+Set the **position** of the 'Cube' to X=`3`, Y=`0.8`, Z=`4`.
 
 Set the **rotation** of the 'Cube' to X=`10`, Y=`0`, Z=`0`.
 
