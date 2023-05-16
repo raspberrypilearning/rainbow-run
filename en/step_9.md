@@ -20,6 +20,6 @@ You can:
 title: Completed project
 ---
 
-You can download the basic and extended projects as packages along with the WebGL projects from the  [zipped solutions directory](https://rpf.io/p/en/rainbow-run-get){:target="_blank"}.
+You can download the basic and extended projects as packages along with the WebGL projects from the [zipped solutions directory](https://rpf.io/p/en/rainbow-run-get){:target="_blank"}.
 
 --- /collapse ---
