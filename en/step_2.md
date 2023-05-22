@@ -9,6 +9,10 @@ In this step, you will build a track from parts and add colourful materials.
 </div>
 </div>
 
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+Some popular <span style="color: #0faeb0">**rolling ball games**</span> made with Unity include <span style="color: #0faeb0">**Super Monkey Ball Banana Mania**</span>, <span style="color: #0faeb0">**Katamari Damacy REROLL**</span>, <span style="color: #0faeb0">**Hop**</span> and <span style="color: #0faeb0">**Rush**</span>. In some rolling ball games and apps you control the ball and in others you tilt the floor to move the ball. Have you played any games with a rolling ball or marble?
+</p>
+
 ### Create a project with the starter package
 
 A Unity project needs graphics and sound 'Assets'.  
