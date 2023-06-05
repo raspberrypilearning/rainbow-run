@@ -38,7 +38,9 @@ Go to the Hierarchy window. Right-click on the 'Main Camera' and select **Align 
 
 --- task ---
 
-Go to the Inspector window for the 'Main Camera' and click on the **Add Component** button. Type `CameraController` and press <kbd>Enter</kbd> **twice** to create a new script called `CameraController`.
+Go to the Inspector window for the 'Main Camera' and click on the **Add Component** button. Type `CameraFollow` and press <kbd>Enter</kbd> **twice** to create a new script called `CameraFollow`.
+
+<mark>We need to update this screenshot</mark>
 
 ![The new CameraController script component on the Main Camera.](images/camera-component.png)
 
@@ -48,9 +50,13 @@ Go to the Inspector window for the 'Main Camera' and click on the **Add Componen
 
 Go to the Project window. The new script will be saved in the Assets folder:
 
+<mark>We need to update this screenshot</mark>
+
 ![The new CameraController script in the Assets folder.](images/camera-assets.png)
 
 Drag the new script to the 'Scripts' folder to organise your files:
+
+<mark>We need to update this screenshot</mark>
 
 ![The new CameraController script now in the Scripts folder.](images/camera-script.png)
 
@@ -58,14 +64,14 @@ Drag the new script to the 'Scripts' folder to organise your files:
 
 --- task ---
 
-Double click on 'CameraController' script. The script will open in a separate code editor. 
+Double click on 'CameraFollow' script. The script will open in a separate code editor. 
 
 Copy or type this code to make the Main Camera look at the ball and move with the ball as the ball rolls down the track:
 
 --- code ---
 ---
 language: cs
-filename: CameraController.cs
+filename: CameraFollow.cs
 line_numbers: true
 line_number_start: 1
 line_highlights: 
@@ -75,7 +81,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CameraController : MonoBehaviour
+public class CameraFollow : MonoBehaviour
 {
   public GameObject ball;
   private Vector3 prevBallPos;
@@ -87,7 +93,7 @@ public class CameraController : MonoBehaviour
       prevBallPos = ball.transform.position;
   }
 
-  void LateUpdate()
+  void Update()
   {
        // Moves the camera by the same amount the ball has moved
        transform.Translate(ball.transform.position - prevBallPos, Space.World);
@@ -125,46 +131,51 @@ The ball will roll down the track and the camera will follow it.
 
 --- task ---
 
-Press the 'Play' button again to stop running your project. 
+Press the 'Play' button again to stop running your project.
 
-Double click on 'CameraController' script and add code to use the mouse position to control the camera rotation angle:
+Select the 'MainCamera' object in the Hierarchy window again. 
+
+In the 'Inspector' click on the **Add Component** button, Type `CameraRotate` and press <kbd>Enter</kbd> **twice** to create a new script called `CameraRotate`.
+
+Move the new script from the 'Assets' folder to the 'Scripts' folder to organise your files.
+
+Double click on `CameraRotate` script and add code to use the mouse position to control the camera rotation angle:
 
 --- code ---
 ---
 language: cs
-filename: CameraController.cs
+filename: CameraRotate.cs
 line_numbers: true
 line_number_start: 1
-line_highlights: 7, 20, 21, 22, 23
+line_highlights: 7, 20-27
 ---
 
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CameraController : MonoBehaviour
+public class CameraRotate : MonoBehaviour
 {
-  public float sensitivity = 5f;
   public GameObject ball;
-  private Vector3 prevBallPos;
+  public float sensitivity = 5f;
 
   void Start()
-   {
-       // Calculate where the camera is in relation to the player (ball)
-       transform.LookAt(ball.transform);
-       prevBallPos = ball.transform.position;
-   }
+  {
+      // Focus the camera on the Ball
+      transform.LookAt(ball.transform);
+  }
 
-void LateUpdate()
-   {
-       float mouse = Input.GetAxis("Mouse Y");
-       transform.Rotate(new Vector3(mouse * sensitivity * -1, 0, 0));
-       float look = Input.GetAxis("Mouse X") * sensitivity;
-       transform.RotateAround(ball.transform.position, Vector3.up, look);
-       // Moves the camera by the same amount the ball has moved
-       transform.Translate(ball.transform.position - prevBallPos, Space.World);
-       prevBallPos = ball.transform.position;
-   }
+  void Update()
+  {
+      //If the left mouse button held down, rotate the camera using mouse position
+      if (Input.GetKey("mouse 0"))
+      {
+          float mouse = Input.GetAxis("Mouse Y");
+          transform.Rotate(new Vector3(mouse * sensitivity * -1, 0, 0));
+          float look = Input.GetAxis("Mouse X") * sensitivity;
+          transform.RotateAround(ball.transform.position, Vector3.up, look);
+      } 
+  }
 }
 
 --- /code ---
@@ -173,7 +184,17 @@ void LateUpdate()
 
 --- task ---
 
-**Test:** Save your script and switch back to the Unity Editor. Select the Game view tab and click on the 'Play' button to run your project.  
+Save your script and switch back to the Unity Editor.
+
+In the Inspector set the 'Ball' variable of the `CameraRotate` script by dragging the Ball from the Hierarchy window onto the box. 
+
+![The CameraRotate component with the Ball object set correctly.](images/camera-rotate-component.png)
+
+--- /task ---
+
+--- task ---
+
+**Test:** Select the Game view tab and click on the 'Play' button to run your project.  
 
 The camera will still follow the ball down the track but you can now control the view by moving your mouse to the left and right, up and down. 
 

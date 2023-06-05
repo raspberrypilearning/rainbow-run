@@ -5,7 +5,7 @@
 In this step, you will add a reset button to respawn your ball at the top of the track.
 </div>
 <div>
-![The output of step 2.](images/step6-output.gif){:width="300px"}
+![The output of this step.](images/step6-output.gif){:width="300px"}
 </div>
 </div>
 
@@ -65,7 +65,9 @@ In the Inspector window, change the 'Rect transform' of the button to Pos X=`100
 
 --- task ---
 
-**Test:** Save your script and switch back to the Unity Editor. Select the Game view tab and click on the 'Play' button to run your project.  
+**Test:** Switch your editor back out of 2D mode by clicking the same icon in the top of the 'Scene' view. 
+
+Select the Game view tab and click on the 'Play' button to run your project.  
 
 Your button will appear in the top left corner. You can change the Rect Transform coordinates until you find the position you like best. 
 
@@ -77,7 +79,9 @@ Press the 'Play' button again to stop running your project.
 
 --- task ---
 
-Go to the Inspector window for the 'Ball' and click on the **Add Component** button. Type `Reset` and press <kbd>Enter</kbd> **twice** to create a new script called `Reset`.
+Click on the 'Ball' GameObject in the Hierarchy window. Press <kbd>Shift</kbd> and <kbd>F</kbd> on your keyboard to focus the Scene view on the Ball: 
+
+Go to the Inspector and click on the **Add Component** button. Type `Reset` and press <kbd>Enter</kbd> **twice** to create a new script called `Reset`.
 
 --- /task ---
 

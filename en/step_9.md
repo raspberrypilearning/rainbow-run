@@ -12,7 +12,7 @@ You can:
     + spin speed 
     + spin axis
 
-<iframe allowtransparency="true" width="710" height="450" src="https://explore-a-3d-world-extended.rpfilt.repl.co" frameborder="0"></iframe>
+<iframe allowtransparency="true" width="710" height="500" src="https://raspberrypilearning.github.io/unity-webgl/RainbowRunUpgraded" scrolling = "no" frameborder="0"></iframe>
 
 --- collapse ---
 
@@ -20,6 +20,6 @@ You can:
 title: Completed project
 ---
 
-You can download the basic and extended projects as packages along with the WebGL projects from the  [zipped solutions directory](https://rpf.io/p/en/rainbow-run-get){:target="_blank"}.
+You can download the basic and extended projects as packages along with the WebGL projects from the [zipped solutions directory](https://rpf.io/p/en/rainbow-run-get){:target="_blank"}.
 
 --- /collapse ---

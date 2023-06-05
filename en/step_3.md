@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will create a ball using a **UV sphere** object. Then style the ball and make it bounce.
+In this step, you will create a ball using a **Sphere** object. Then style the ball and make it bounce.
 </div>
 <div>
 ![The ball game object is shown in the centre of the Scene view. The view is close up.](images/bouncyball-ball.png){:width="300px"}
@@ -23,7 +23,9 @@ In this step, you will create a ball using a **UV sphere** object. Then style th
 
 Set the scale of the 'Ball' to X=`0.25`, Y=`0.25`, Z=`0.25`.
 
-![A screenshot highlighting the stated scale values for the 'Ball' GameObject.](images/ball-scale.png)
+**Tip:** You can use the 'link' button next to the scale property to change all the values at once.
+
+![A screenshot highlighting the 'link' icon and the stated scale values for the 'Ball' GameObject.](images/ball-scale.png)
 
 --- /task ---
 
@@ -41,15 +43,29 @@ Alternatively, you can use the transform positions X=`-1`, Y=`6`, Z=`-7.7`.
 
 --- task ---
 
-With the 'Ball' GameObject selected, choose 'Add Component' in the inspector window and enter the text 'RigidBody'. Select the 'RigidBody' component. This adds a gravity effect to your ball. 
+With the 'Ball' GameObject selected, choose 'Add Component' in the inspector window and enter the text 'Rigidbody'. Select the 'Rigidbody' component. This adds a gravity effect to your ball. 
 
-![A screenshot showing the RigidBody component selected in the inspector window.](images/rigid-body.png)
+![A screenshot showing the Rigidbody component selected in the inspector window.](images/rigid-body.png)
 
 --- /task ---
 
 --- task ---
 
-Right-click on the 'MainCamera' object in the 'Hierarchy'.
+Move your camera so you can see the whole track and the Ball. 
+
+You can do this using the **transform gizmo** and **rotation gizmo** on the `Main Camera` GameObject. 
+
+Or you can set the position and rotation in the Inspector to: 
+
+Position X=`11`, Y=`7`, Z=`9`
+
+Rotation: X=`15`, Y=`-130`, Z=`0`
+
+--- /task ---
+
+--- task ---
+
+Right-click on the 'Main Camera' object in the 'Hierarchy'.
 
 Choose 'Align with view'. This will match your Scene view and your Main Camera view. 
 
@@ -59,7 +75,9 @@ Choose 'Align with view'. This will match your Scene view and your Main Camera v
 
 --- task ---
 
-Click **Play** and watch your ball roll slowly down the ramp. 
+Click **Play** and watch your ball roll slowly down the ramp.
+
+Press the ‘Play’ button again to stop running your project.
 
 --- /task ---
 
@@ -67,7 +85,7 @@ Click **Play** and watch your ball roll slowly down the ramp.
 
 --- task ---
 
-In the Project window select 'Materials' and then 'PhysicsMaterials'. Right-click in the window, click 'Create' and select **Physic Material**. 
+In the Project window select 'PhysicsMaterials'. Right-click in the window, click 'Create' and select **Physic Material**. 
 
 ![A screenshot showing menu with 'Create' and 'Physic Material' highlighted.](images/create-physic-material.png)
 
@@ -115,7 +133,7 @@ Click **Play** and watch your ball bounce as it lands on the ramp.
 
 --- task ---
 
-In the Project window go to **Materials > BallMaterials**. 
+In the Project window go to **Materials**. 
 
 Right-click in the folder and select **Create > Material**.
 
@@ -139,7 +157,7 @@ Click on the texture to add it to your new material.
 
 Drag your new 'BouncyBall' material to the ball in the Scene view. 
 
-**Tip:** Use <kbd>shift</kbd> and <kbd>f</kbd> on your keyboard to zoom in to the ball object so you can see the material clearly. 
+**Tip:** Use <kbd>Shift</kbd> and <kbd>F</kbd> on your keyboard to zoom in to the ball object so you can see the material clearly. 
 
 ![The ball game object is shown in the centre of the Scene view. The view is close up.](images/bouncyball-ball.png)
 

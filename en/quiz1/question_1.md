@@ -34,11 +34,11 @@ Which component do you add to a GameObject to make the GameObject be pulled by g
 
   --- /feedback ---
 
-- (x) RigidBody
+- (x) Rigidbody
 
   --- feedback ---
 
-  That's right. One of the reasons to add a RigidBody is to use gravity. 
+  That's right. One of the reasons to add a Rigidbody is to use gravity. 
 
   --- /feedback ---
 
