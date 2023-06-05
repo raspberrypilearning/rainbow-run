@@ -6,7 +6,7 @@ If you want to have more fun exploring Unity, then you could try out any of [the
 
 --- print-only ---
 
-Disco dance floor: https://raspberrypilearning.github.io/unity-webgl/DiscoDanceFloor
+Disco Dance Floor: https://raspberrypilearning.github.io/unity-webgl/DiscoDanceFloor
 ![An image of the finished Disco Dance Floor project showing coloured tiles and a ball with mirror ball material. The floor is tilted at an angle.](images/disco-dance-floor.png)
 
 --- /print-only ---

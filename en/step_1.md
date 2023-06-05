@@ -12,7 +12,7 @@ You will:
 
 Control the camera by clicking the left mouse button and moving the mouse. Control the movement of the ball using <kbd>WASD</kbd> (or <kbd>ZQSD</kbd>) or the arrow keys. 
 
-<iframe allowtransparency="true" width="710" height="500" src="https://rainbow-run.rpfilt.repl.co/" scrolling="no" frameborder="0"></iframe>
+<iframe allowtransparency="true" width="710" height="500" src="https://raspberrypilearning.github.io/unity-webgl/RainbowRun" scrolling="no" frameborder="0"></iframe>
 
 --- /no-print ---
 
