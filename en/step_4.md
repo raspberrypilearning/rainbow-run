@@ -103,9 +103,9 @@ public class CameraFollow : MonoBehaviour
 
 Save your script and switch back to the Unity Editor and click on the 'Main Camera' GameObject in the Hierarchy window.
 
-Find the 'Ball' property of the Main Camera's CameraController script in the Inspector window.
+Find the 'Ball' property of the Main Camera's CameraFollow script in the Inspector window.
 
-Click on the circle to the right of the Ball property and choose the 'Ball' GameObject':
+Click on the circle to the right of the Ball property and choose the 'Ball' GameObject:
 
 ![The CameraController script component on the Main Camera with Ball property dropdown menu and 'Ball' selected.](images/ball-script.png)
 
@@ -141,7 +141,7 @@ language: cs
 filename: CameraRotate.cs
 line_numbers: true
 line_number_start: 1
-line_highlights: 7, 20-27
+line_highlights:
 ---
 
 using System.Collections;

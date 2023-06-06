@@ -97,7 +97,9 @@ Rename the Cube object to 'SpinningCube'.
 
 --- task ---
 
-Go to the Inspector window for the 'SpinningCube' and click on the **Add Component** button. Type `Spin` and  click 'New Script' - and then hit <kbd>Enter</kbd> or click 'Create and Add'.
+Go to the Inspector window for the 'SpinningCube' and click on the **Add Component** button. 
+
+Type `Spin` and  click 'New Script' - and then hit <kbd>Enter</kbd> or click 'Create and Add'.
 
 --- /task ---
 
