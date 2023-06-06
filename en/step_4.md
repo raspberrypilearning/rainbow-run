@@ -40,8 +40,6 @@ Go to the Hierarchy window. Right-click on the 'Main Camera' and select **Align 
 
 Go to the Inspector window for the 'Main Camera' and click on the **Add Component** button. Type `CameraFollow` and press <kbd>Enter</kbd> **twice** to create a new script called `CameraFollow`.
 
-<mark>We need to update this screenshot</mark>
-
 ![The new CameraController script component on the Main Camera.](images/camera-component.png)
 
 --- /task ---
@@ -50,13 +48,9 @@ Go to the Inspector window for the 'Main Camera' and click on the **Add Componen
 
 Go to the Project window. The new script will be saved in the Assets folder:
 
-<mark>We need to update this screenshot</mark>
-
 ![The new CameraController script in the Assets folder.](images/camera-assets.png)
 
 Drag the new script to the 'Scripts' folder to organise your files:
-
-<mark>We need to update this screenshot</mark>
 
 ![The new CameraController script now in the Scripts folder.](images/camera-script.png)
 

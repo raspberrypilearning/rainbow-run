@@ -85,7 +85,9 @@ Press the ‘Play’ button again to stop running your project.
 
 --- task ---
 
-In the Project window select 'PhysicsMaterials'. Right-click in the window, click 'Create' and select **Physic Material**. 
+In the Project window select **Materials > PhysicsMaterials**. 
+
+Right-click in the window, click 'Create' and select **Physic Material**. 
 
 ![A screenshot showing menu with 'Create' and 'Physic Material' highlighted.](images/create-physic-material.png)
 

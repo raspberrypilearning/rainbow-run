@@ -89,7 +89,7 @@ Resize the **Z Scale** of the plane in the Inspector window to `2`:
 
 --- task ---
 
-In the Project window, click on **Materials > Obstacle Materials**.
+In the Project window, click on **Materials**.
 
 **Drag** the 'Concrete floor' material to the plane: 
 
