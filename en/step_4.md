@@ -40,7 +40,7 @@ Go to the Hierarchy window. Right-click on the 'Main Camera' and select **Align 
 
 Go to the Inspector window for the 'Main Camera' and click on the **Add Component** button. Type `CameraFollow` and press <kbd>Enter</kbd> **twice** to create a new script called `CameraFollow`.
 
-![The new CameraController script component on the Main Camera.](images/camera-component.png)
+![The new CameraFollow script component on the Main Camera.](images/camera-component.png)
 
 --- /task ---
 
@@ -48,11 +48,11 @@ Go to the Inspector window for the 'Main Camera' and click on the **Add Componen
 
 Go to the Project window. The new script will be saved in the Assets folder:
 
-![The new CameraController script in the Assets folder.](images/camera-assets.png)
+![The new CameraFollow script in the Assets folder.](images/camera-assets.png)
 
 Drag the new script to the 'Scripts' folder to organise your files:
 
-![The new CameraController script now in the Scripts folder.](images/camera-script.png)
+![The new CameraFollow script now in the Scripts folder.](images/camera-script.png)
 
 --- /task ---
 
@@ -107,7 +107,7 @@ Find the 'Ball' property of the Main Camera's CameraFollow script in the Inspect
 
 Click on the circle to the right of the Ball property and choose the 'Ball' GameObject:
 
-![The CameraController script component on the Main Camera with Ball property dropdown menu and 'Ball' selected.](images/ball-script.png)
+![The CameraFollow script component on the Main Camera with Ball property dropdown menu and 'Ball' selected.](images/ball-script.png)
 
 --- /task ---
 
