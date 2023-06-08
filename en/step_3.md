@@ -67,9 +67,9 @@ Rotation: X=`15`, Y=`-130`, Z=`0`
 
 Right-click on the 'Main Camera' object in the 'Hierarchy'.
 
-Choose 'Align with view'. This will match your Scene view and your Main Camera view. 
+Choose 'Align View to Selected'. This will match your Scene view and your Main Camera view. 
 
-![A screenshot showing the 'Align with view' option highlighted in the GameObject menu.](images/align-with-view.png)
+![A screenshot showing the 'Align View to Selected' option highlighted in the GameObject menu.](images/align-view-with-selected.png)
 
 --- /task ---
 
