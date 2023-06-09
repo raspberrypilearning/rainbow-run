@@ -10,7 +10,7 @@ In this step, you will create a script that uses the keyboard to control the bal
 </div>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Around the world people use different computer keyboard layouts and this can impact the common keys used for navigation. An example of this is in the <span style="color: #0faeb0">**<kbd>QWERTY</kbd>**</span> and <span style="color: #0faeb0">**<kbd>AZERTY</kbd>**</span> layouts. A <kbd>QWERTY</kbd> keyboard user will likely use keys <span style="color: #0faeb0">**<kbd>WASD</kbd>**</span> to move around in a game but an <kbd>AZERTY</kbd> keyboard user will likely use keys <span style="color: #0faeb0">**<kbd>ZQSD</kbd>**</span>. These are just two examples. Which keys would you use? 
+Around the world, people use different computer keyboard layouts and this can impact the common keys used for navigation. An example of this is in the <span style="color: #0faeb0">**<kbd>QWERTY</kbd>**</span> and <span style="color: #0faeb0">**<kbd>AZERTY</kbd>**</span> layouts. A <kbd>QWERTY</kbd> keyboard user will likely use keys <span style="color: #0faeb0">**<kbd>WASD</kbd>**</span> to move around in a game but an <kbd>AZERTY</kbd> keyboard user will likely use keys <span style="color: #0faeb0">**<kbd>ZQSD</kbd>**</span>. These are just two examples. Which keys would you use? 
 </p>
 
 ### Apply force on key press
@@ -25,22 +25,22 @@ Go to the Inspector window for the 'Ball' and click on the **Add Component** but
 
 Go to the Project window. The new script will be saved in the Assets folder.
 
-Drag the new script to the 'Scripts' folder to organise your files.
+Drag the new script to the Scripts folder to organise your files.
 
 --- /task ---
 
 --- task ---
 
-Double click on the 'BallController' script. Copy or type this code to make the Ball move to the left when you press <kbd>A</kbd> and right when you press <kbd>D</kbd>:
+Double-click on the **BallController** script. Copy or type the code below to make the Ball move to the left when you press <kbd>A</kbd> and right when you press <kbd>D</kbd>.
 
-**Choose:** These instructions are based on using the keys <kbd>WASD</kbd> to control movement. If you want to use different keys you can change the Inspector values to the keys you want to use. 
+**Choose:** These instructions are based on using the keys <kbd>WASD</kbd> to control movement. If you want to use different keys, you can change the Inspector values to the keys you want to use. 
 
 --- collapse ---
 ---
 title: I want to use different keys
 ---
 
-You can set which ever keys you would like to use in the Inspector. For letter keys just make sure the letters are **lower case**. 
+You can set which ever keys you would like to use in the Inspector. For letter keys, just make sure the letters are **lower case**. 
 
 You can also use the arrows by entering `left` and `right` into the Inspector.
 
@@ -104,7 +104,7 @@ public class BallController : MonoBehaviour
 
 Save your script and switch back to the Unity Editor and click on the 'Ball' GameObject in the Hierarchy window.
 
-Find the 'Camera Transform' property of the Ball's BallController script in the Inspector window.
+Find the 'Camera Transform' property of the Ball's **BallController** script in the Inspector window.
 
 Click on the circle to the right of the Camera Transform property and choose the 'Main Camera' GameObject':
 
@@ -112,13 +112,13 @@ Click on the circle to the right of the Camera Transform property and choose the
 
 You can also set which keys you would like to use for the right and left controls. 
 
-You can use `d` for right and `a` for left - the letters **must** be lowercase. 
+You can use `d` for right and `a` for left — the letters **must** be lowercase. 
 
 If you would like to use the arrow keys you can enter `right` and `left`.
 
 Use whichever keys make sense for your keyboard.
 
-![The BallController script component on the Ball with Camera Transform property set to `MainCamera`, the `rightKey` property is set to 'd' and the `leftKey` property is set to 'a'.](images/ball-controls.png)
+![The BallController script component on the Ball with Camera Transform property set to `Main Camera`, the `Right Key` property is set to 'd' and the `Left Key` property is set to 'a'.](images/ball-controls.png)
 
 --- /task ---
 
@@ -136,7 +136,7 @@ Press the 'Play' button again to stop running your project.
 
 --- task ---
 
-Go back to your 'BallController' script and add code to FixedUpdate to give your ball a turbo boost forward when you press <kbd>W</kbd> and go backward when you press <kbd>S</kbd>:
+Go back to your **BallController** script and add code to FixedUpdate to give your ball a turbo boost forward when you press <kbd>W</kbd> and go backward when you press <kbd>S</kbd>:
 
 **Tip**: Choose the keys that suit your needs. 
 
@@ -197,14 +197,14 @@ line_highlights: 9, 11, 27, 39-47
 
 --- task ---
 
-**Test:** Save your script and switch back to the Unity Editor. Click on the 'Ball' GameObject and set the keys you want to use for forward and backward.
+**Test:** Save your script and switch back to the Unity Editor. Click on the 'Ball' GameObject and set the keys you want to use for forwards and backwards.
 
 Select the Game view tab and click on the 'Play' button to run your project.  
 
-Use the keys you set in the Inspector to move the ball up, left, down and right. Can you use your turbo to fly off the track?
+Use the keys you set in the Inspector to move the ball up, left, down, and right. Can you use your turbo to fly off the track?
 
 Press the 'Play' button again to stop running your project.
 
-**Debug:** if your left or backward keys are not working, double check you have the `-` in front of `right` and `forward` when setting the variables.
+**Debug:** If your left or backward keys are not working, double check you have the `-` in front of `right` and `forward` when setting the variables.
 
 --- /task ---

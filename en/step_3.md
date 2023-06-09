@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will create a ball using a **Sphere** object. Then style the ball and make it bounce.
+In this step, you will create a ball using a **Sphere** object. Then you will style the ball and make it bounce.
 </div>
 <div>
 ![The ball game object is shown in the centre of the Scene view. The view is close up.](images/bouncyball-ball.png){:width="300px"}
@@ -11,11 +11,11 @@ In this step, you will create a ball using a **Sphere** object. Then style the b
 
 --- task ---
 
-**Right-click** in the 'Hierarchy' and choose **3D Object > Sphere**.
+Right-click in the Hierarchy window and choose **3D Object > Sphere**.
 
-**Name** the new Sphere object 'Ball'.
+Name the new Sphere object 'Ball'.
 
-![A screenshot of the menu in the hierarchy window. Create GameObject and Sphere are highlighted.](images/new-sphere.png)
+![A screenshot of the menu in the Hierarchy window. '3D Object' and 'Sphere' are highlighted.](images/new-sphere.png)
 
 --- /task ---
 
@@ -33,9 +33,9 @@ Set the scale of the 'Ball' to X=`0.25`, Y=`0.25`, Z=`0.25`.
 
 --- task ---
 
-Position the ball using the **transform gizmo** so that it is slightly above the top of the ramp. 
+Position the ball using the **Transform gizmo** so that it is slightly above the top of the ramp. 
 
-Alternatively, you can use the transform positions X=`-1`, Y=`6`, Z=`-7.7`.
+Alternatively, you can use the Transform positions X=`-1`, Y=`6`, Z=`-7.7`.
 
 ![A screenshot highlighting the ball positioned at the top of the ramp.](images/ball-position.png)
 
@@ -43,9 +43,9 @@ Alternatively, you can use the transform positions X=`-1`, Y=`6`, Z=`-7.7`.
 
 --- task ---
 
-With the 'Ball' GameObject selected, choose 'Add Component' in the inspector window and enter the text 'Rigidbody'. Select the 'Rigidbody' component. This adds a gravity effect to your ball. 
+With the 'Ball' GameObject selected, choose 'Add Component' in the Inspector window and enter the text 'Rigidbody'. Select the 'Rigidbody' component. This adds a gravity effect to your ball. 
 
-![A screenshot showing the Rigidbody component selected in the inspector window.](images/rigid-body.png)
+![A screenshot showing the Rigidbody component selected in the Inspector window.](images/rigid-body.png)
 
 --- /task ---
 
@@ -53,11 +53,11 @@ With the 'Ball' GameObject selected, choose 'Add Component' in the inspector win
 
 Move your camera so you can see the whole track and the Ball. 
 
-You can do this using the **transform gizmo** and **rotation gizmo** on the `Main Camera` GameObject. 
+You can do this using the **Transform gizmo** and **Rotation gizmo** on the `Main Camera` GameObject. 
 
 Or you can set the position and rotation in the Inspector to: 
 
-Position X=`11`, Y=`7`, Z=`9`
+Position: X=`11`, Y=`7`, Z=`9`
 
 Rotation: X=`15`, Y=`-130`, Z=`0`
 
@@ -65,11 +65,11 @@ Rotation: X=`15`, Y=`-130`, Z=`0`
 
 --- task ---
 
-Right-click on the 'Main Camera' object in the 'Hierarchy'.
+Right-click on the 'Main Camera' object in the Hierarchy window.
 
 Choose 'Align View to Selected'. This will match your Scene view and your Main Camera view. 
 
-![A screenshot showing the 'Align View to Selected' option highlighted in the GameObject menu.](images/align-view-with-selected.png)
+![A screenshot showing the 'Align With View' option highlighted in the GameObject menu.](images/align-view-with-selected.png)
 
 --- /task ---
 
@@ -85,7 +85,7 @@ Press the ‘Play’ button again to stop running your project.
 
 --- task ---
 
-In the Project window select **Materials > PhysicsMaterials**. 
+In the Project window, select **Materials > PhysicsMaterials**. 
 
 Right-click in the window, click 'Create' and select **Physic Material**. 
 
@@ -117,9 +117,9 @@ Find the 'Sphere Collider' properties and click on the small circle in the 'Mate
 
 ![A screenshot showing the small circle to the right of 'Material'.](images/add-physics-material.png)
 
-Double-click on your new 'Bounce' physics material.
+Double-click on your new 'Bounce' Physics Material.
 
-![A screenshot showing the the 'Bounce' physics material highlighted.](images/bounce.png)
+![A screenshot showing the the 'Bounce' Physics Material highlighted.](images/bounce.png)
 
 --- /task ---
 
@@ -141,7 +141,7 @@ Right-click in the folder and select **Create > Material**.
 
 Name your new material **BouncyBall**:
 
-![The BallMaterials folder with new 'BouncyBall' material.](images/bouncyball-material.png)
+![The BallMaterials folder with new 'BouncyBall' material highlighted in red.](images/bouncyball-material.png)
 
 --- /task ---
 
@@ -151,7 +151,7 @@ Go to the Inspector window and select the small circle next to **Albedo**. Type 
 
 Click on the texture to add it to your new material.
 
-![The Inspector showing the 'Albedo' property and beneath it a popup window with the words 'BouncyBall' typed into the search. The BouncyBall texture has appeared in the search results.](images/bouncyball-texture.png)
+![The Inspector showing the 'Albedo' property and beneath it a pop-up window with the words 'BouncyBall' typed into the search. The BouncyBall texture has appeared in the search results.](images/bouncyball-texture.png)
 
 --- /task ---
 

@@ -55,7 +55,7 @@ To import them into your new project, click on the **Assets menu** and select **
 
 --- task ---
 
-Right-click on **SampleScene** in the Hierarchy and choose **Save Scene As**: 
+Right-click on **SampleScene** in the Hierarchy window and choose **Save Scene As**: 
 
 ![The SampleScene icon in the Hierarchy window with the right-click menu expanded.](images/right-click-scene.png)
 
@@ -210,6 +210,6 @@ We added rainbow colours. What will you choose?
 
 --- /task ---
 
-**Tip:** Your scene will autosave. You can also use **File** > **Save** or <kbd>Ctrl+S</kbd> to save at any time. 
+**Tip:** Your scene will autosave. You can also use **File > Save** or <kbd>Ctrl+S</kbd> to save at any time. 
 
 --- save ---
