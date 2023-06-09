@@ -10,12 +10,12 @@ In this step, you will build a track from parts and add colourful materials.
 </div>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Marble run games have been around for centuries. The concept of guiding marbles through intricate tracks can be traced back to ancient civilizations, where children used materials like carved stone or wooden ramps to create their own marble runs. The great inventor and artist <span style="color: #0faeb0">**Leonardo da Vinci**</span> was known to experiment with various mechanical devices, including marble run-like contraptions. His fascination with engineering and motion can be seen in his drawings and designs.
+Marble run games have been around for centuries. The concept of guiding marbles through intricate tracks can be traced back to ancient civilisations, where children used materials like carved stone or wooden ramps to create their own marble runs. The great inventor and artist <span style="color: #0faeb0">**Leonardo da Vinci**</span> was known to experiment with various mechanical devices, including marble run-like contraptions. His fascination with engineering and motion can be seen in his drawings and designs.
 </p>
 
 ### Create a project with the starter package
 
-A Unity project needs graphics and sound 'Assets'.  
+A Unity project needs graphics and sound assets.  
 
 --- task ---
 
