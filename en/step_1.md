@@ -34,7 +34,7 @@ You will also need to download the [More Unity starter package](https://rpf.io/p
 
 The projects in this More Unity path are suitable for creators with some experience of Unity. 
 
-If you are new to Unity our [Introduction to Unity path](https://projects.raspberrypi.org/en/raspberrypi/unity-intro) is a great place to start and learn all about: 
+If you are new to Unity, our [Introduction to Unity path](https://projects.raspberrypi.org/en/raspberrypi/unity-intro) is a great place to start and learn all about: 
 + 3D Objects
 + Character Controllers
 + Colliders
