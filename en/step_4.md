@@ -40,9 +40,7 @@ Go to the Hierarchy window. Right-click on the 'Main Camera' and select **Align 
 
 Go to the Inspector window for the 'Main Camera' and click on the **Add Component** button. Type `CameraFollow` and press <kbd>Enter</kbd> **twice** to create a new script called `CameraFollow`.
 
-<mark>We need to update this screenshot</mark>
-
-![The new CameraController script component on the Main Camera.](images/camera-component.png)
+![The new CameraFollow script component on the Main Camera.](images/camera-component.png)
 
 --- /task ---
 
@@ -50,21 +48,17 @@ Go to the Inspector window for the 'Main Camera' and click on the **Add Componen
 
 Go to the Project window. The new script will be saved in the Assets folder:
 
-<mark>We need to update this screenshot</mark>
+![The new CameraFollow script in the Assets folder.](images/camera-assets.png)
 
-![The new CameraController script in the Assets folder.](images/camera-assets.png)
+Drag the new script to the Scripts folder to organise your files:
 
-Drag the new script to the 'Scripts' folder to organise your files:
-
-<mark>We need to update this screenshot</mark>
-
-![The new CameraController script now in the Scripts folder.](images/camera-script.png)
+![The new CameraFollow script now in the Scripts folder.](images/camera-script.png)
 
 --- /task ---
 
 --- task ---
 
-Double click on 'CameraFollow' script. The script will open in a separate code editor. 
+Double-click on the **CameraFollow** script. The script will open in a separate code editor. 
 
 Copy or type this code to make the Main Camera look at the ball and move with the ball as the ball rolls down the track:
 
@@ -109,11 +103,11 @@ public class CameraFollow : MonoBehaviour
 
 Save your script and switch back to the Unity Editor and click on the 'Main Camera' GameObject in the Hierarchy window.
 
-Find the 'Ball' property of the Main Camera's CameraController script in the Inspector window.
+Find the 'Ball' property of the Main Camera's CameraFollow script in the Inspector window.
 
-Click on the circle to the right of the Ball property and choose the 'Ball' GameObject':
+Click on the circle to the right of the Ball property and choose the 'Ball' GameObject:
 
-![The CameraController script component on the Main Camera with Ball property dropdown menu and 'Ball' selected.](images/ball-script.png)
+![The CameraFollow script component on the Main Camera with the Ball property dropdown menu and 'Ball' selected.](images/ball-script.png)
 
 --- /task ---
 
@@ -135,11 +129,11 @@ Press the 'Play' button again to stop running your project.
 
 Select the 'MainCamera' object in the Hierarchy window again. 
 
-In the 'Inspector' click on the **Add Component** button, Type `CameraRotate` and press <kbd>Enter</kbd> **twice** to create a new script called `CameraRotate`.
+In the Inspector, click on the **Add Component** button, Type `CameraRotate` and press <kbd>Enter</kbd> **twice** to create a new script called `CameraRotate`.
 
-Move the new script from the 'Assets' folder to the 'Scripts' folder to organise your files.
+Move the new script from the Assets folder to the Scripts folder to organise your files.
 
-Double click on `CameraRotate` script and add code to use the mouse position to control the camera rotation angle:
+Double-click on the **CameraRotate** script and add code to use the mouse position to control the camera rotation angle:
 
 --- code ---
 ---
@@ -147,7 +141,7 @@ language: cs
 filename: CameraRotate.cs
 line_numbers: true
 line_number_start: 1
-line_highlights: 7, 20-27
+line_highlights:
 ---
 
 using System.Collections;
@@ -186,7 +180,7 @@ public class CameraRotate : MonoBehaviour
 
 Save your script and switch back to the Unity Editor.
 
-In the Inspector set the 'Ball' variable of the `CameraRotate` script by dragging the Ball from the Hierarchy window onto the box. 
+In the Inspector, set the 'Ball' variable of the **CameraRotate** script by dragging the Ball from the Hierarchy window onto the box. 
 
 ![The CameraRotate component with the Ball object set correctly.](images/camera-rotate-component.png)
 
@@ -196,11 +190,11 @@ In the Inspector set the 'Ball' variable of the `CameraRotate` script by draggin
 
 **Test:** Select the Game view tab and click on the 'Play' button to run your project.  
 
-The camera will still follow the ball down the track but you can now control the view by moving your mouse to the left and right, up and down. 
+The camera will still follow the ball down the track but you can now control the view by moving your mouse to the left and right, or up and down. 
 
-**Tip:** You can change the sensitivity value in the inspector window to adjust the camera rotation speed. Remember that if you change this whilst in play mode the value will not be saved so you will need to update this once play has stopped. 
+**Tip:** You can change the sensitivity value in the inspector window to adjust the camera rotation speed. Remember that if you change this whilst in play mode, the value will not be saved, so you will need to update this once play has stopped. 
 
-![An animated image of the Game view with the camera following the ball down the track. The camera is rotating to the left and right.](images/camera-control.gif)
+![An animated image of the Game view with the camera following the ball down the track. The camera is rotating to the right and left.](images/camera-control.gif)
 
 Press the 'Play' button again to stop running your project. 
 

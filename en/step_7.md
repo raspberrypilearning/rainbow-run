@@ -5,7 +5,7 @@
 In this step, you will create bouncy and spinning obstacles along your track.
 </div>
 <div>
-![An animated image showing a cube obstacle rotating around the Y axis.](images/spinning-cube.gif){:width="300px"}
+![An animated image showing the ball rolling down a track with a cuboid-shaped obstacle rotating around the Y axis.](images/spinning-cube.gif){:width="300px"}
 </div>
 </div>
 
@@ -13,7 +13,7 @@ In this step, you will create bouncy and spinning obstacles along your track.
 
 --- task ---
 
-**Right-click** in the 'Hierarchy' and choose **3D Object > Capsule**.
+**Right-click** in the Hierarchy window and choose **3D Object > Capsule**.
 
 Set the **scale** of the 'Capsule' to X=`0.5`, Y=`0.5`, Z=`0.5`.
 
@@ -27,13 +27,13 @@ Set the **position** of the 'Capsule' to X=`1`, Y=`4.7`, Z=`-7`.
 
 Click on the circle next to the Material property in the Capsule Collider component and select 'Bounce':
 
-![A screenshot of the Capsule Controller component showing the Bounce physic material has been added.](images/capsule-bounce.png)
+![A screenshot of the Capsule Controller component showing the Bounce Physic Material has been added.](images/capsule-bounce.png)
 
 --- /task ---
 
 --- task ---
 
-**Choose:** a material to style your capsule. 
+**Choose** a material to style your capsule. 
 
 In the Project window, go to **Materials**. Drag a coloured material onto the capsule in Scene view.   
 
@@ -51,13 +51,13 @@ Press the 'Play' button again to stop running your project.
 
 --- task ---
 
-Right-click on the Capsule GameObject in the Hierarchy window and select 'Duplicate'.
+Right-click on the 'Capsule' GameObject in the Hierarchy window and select 'Duplicate'.
 
 Use the move tool to drag the new capsule to another position. 
 
 ![An animated image showing the duplication and moving of a second capsule obstacle.](images/multiple-capsules.gif)
 
-**Choose:** Add more coloured bouncy capsule obstacles. You can add as many as you like - but remember there has to be a way for your ball to get through.
+**Choose:** Add more coloured bouncy capsule obstacles. You can add as many as you like, but remember there has to be a way for your ball to get through.
 
 **Tip:** You can change the scale of each capsule to add variety to your track.
 
@@ -69,7 +69,7 @@ Use the move tool to drag the new capsule to another position.
 
 --- task ---
 
-**Right-click** in the 'Hierarchy' and choose **3D Object > Cube**.
+**Right-click** in the Hierarchy window and choose **3D Object > Cube**.
 
 Set the **position** of the 'Cube' to X=`3`, Y=`0.8`, Z=`4`.
 
@@ -79,7 +79,7 @@ Set the **scale** of the 'Cube' to X=`1.2`, Y=`0.4`, Z=`0.2`.
 
 ![A screenshot of the Cube transform component showing updated values.](images/spinning-cube-properties.png)
 
-![A screenshot of the Cube at the bottom of the ramp.](images/spin-location.png)
+![A screenshot of the Cube object at the bottom of the ramp.](images/spin-location.png)
 
 --- /task ---
 
@@ -91,13 +91,15 @@ Rename the Cube object to 'SpinningCube'.
 
 --- task ---
 
-**Choose:** a material to for your spinning cube. 
+**Choose** a material for your spinning cube. 
 
 --- /task ---
 
 --- task ---
 
-Go to the Inspector window for the 'SpinningCube' and click on the **Add Component** button. Type `Spin` and  click 'New Script' - and then hit <kbd>Enter</kbd> or click 'Create and Add'.
+Go to the Inspector window for the 'SpinningCube' and click on the **Add Component** button. 
+
+Type `Spin` and  click 'New Script' - and then hit <kbd>Enter</kbd> or click 'Create and Add'.
 
 --- /task ---
 
@@ -105,13 +107,13 @@ Go to the Inspector window for the 'SpinningCube' and click on the **Add Compone
 
 Go to the Project window. The new script will be saved in the Assets folder.
 
-Drag the new script to the 'Scripts' folder to organise your files.
+Drag the new script to the Scripts folder to organise your files.
 
 --- /task ---
 
 --- task ---
 
-Double click on the 'Spin' script. Copy or type this code to make the cube spin when your game is in play:
+Double-click on the **Spin** script. Copy or type this code to make the cube spin when your game is in play:
 
 --- code ---
 ---
@@ -163,7 +165,7 @@ You may have heard gamers talk about the **frame-rate** used by the games they p
 
 --- task ---
 
-Save your script and switch back to the Unity Editor. Go to the Inspector for the SpinningCube. In the 'Spin' script component change the Rotation Y value to `50`: 
+Save your script and switch back to the Unity Editor. Go to the Inspector for the SpinningCube. In the **Spin** script component change the Rotation Y value to `50`: 
 
 ![A screenshot the Spin component showing the Rotation on Y with updated value.](images/y-rotation.png)
 
@@ -181,6 +183,6 @@ Press the 'Play' button again to stop running your project.
 
 --- task ---
 
-**Choose:** You can use the Spin component to change the Rotation on X, Y or Z. Try spinning on a different axis or changing the value to increase or decrease the speed. 
+**Choose:** You can use the Spin component to change the Rotation on X, Y, or Z. Try spinning on a different axis or changing the value to increase or decrease the speed. 
 
 --- /task ---

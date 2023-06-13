@@ -11,9 +11,9 @@ In this step, you will add a reset button to respawn your ball at the top of the
 
 --- task ---
 
-**Right-click** in the 'Hierarchy' and choose **UI > Button - TextMeshPro**.
+**Right-click** in the Hierarchy window and choose **UI > Button - TextMeshPro**.
 
-**Tip:** You might see a popup window to 'Import TMP' Essentials' and 'Import TMP Examples & Extras'. If so click on both buttons to use TextMeshPro.
+**Tip:** You might see a pop-up window to 'Import TMP' Essentials' and 'Import TMP Examples & Extras'. If so, click on both buttons to use TextMeshPro.
 
 ![A screenshot of the TMP Importer window showing the two import buttons.](images/TMP-import.png)
 
@@ -27,11 +27,11 @@ Click on the '2D' icon at the top of the Scene view:
 
 Go to the Hierarchy window and select the 'Canvas'.
 
-Press <kbd>shift</kbd> and <kbd>f</kbd> on your keyboard to focus the Scene view on the Canvas:
+Press <kbd>Shift</kbd> and <kbd>f</kbd> on your keyboard to focus the Scene view on the Canvas:
 
 ![A screenshot of the Scene view with the Canvas filling the scene.](images/canvas-focus.png)
 
-**Note:** Your button might not be in the bottom left corner. This is fine as you are about to change its location.
+**Note:** Your button might not be in the bottom left-hand corner. This is fine as you are about to change its location.
 
 --- /task ---
 
@@ -59,7 +59,7 @@ In the Inspector window, change the 'Rect transform' of the button to Pos X=`100
 
 ![A screenshot of the Inspector showing the Rect Transform component with updated coordinates.](images/rect-transform.png)
 
-![A screenshot of the Scene view showing the button in the top left corner of the Canvas.](images/top-left-button.png)
+![A screenshot of the Scene view showing the button in the top left-hand corner of the Canvas.](images/top-left-button.png)
 
 --- /task ---
 
@@ -69,7 +69,7 @@ In the Inspector window, change the 'Rect transform' of the button to Pos X=`100
 
 Select the Game view tab and click on the 'Play' button to run your project.  
 
-Your button will appear in the top left corner. You can change the Rect Transform coordinates until you find the position you like best. 
+Your button will appear in the top left-hand corner. You can change the 'Rect Transform' coordinates until you find the position you like best. 
 
 Press the 'Play' button again to stop running your project. 
 
@@ -89,13 +89,13 @@ Go to the Inspector and click on the **Add Component** button. Type `Reset` and 
 
 Go to the Project window. The new script will be saved in the Assets folder.
 
-Drag the new script to the 'Scripts' folder to organise your files.
+Drag the new script to the Scripts folder to organise your files.
 
 --- /task ---
 
 --- task ---
 
-Double click on the 'Reset' script. Copy or type this code to make the Ball respawn at the top of the track when you press the Reset button:
+Double-click on the **Reset** script. Copy or type this code to make the Ball respawn at the top of the track when you press the Reset button:
 
 --- code ---
 ---
@@ -147,9 +147,9 @@ In the Inspector window, scroll down until you see the 'On Click()' component.
 
 Click on the the **+** sign to create a new action.
 
-Drag the  'Ball' GameObject from the Hierarchy window to the Object property of the action. 
+Drag the 'Ball' GameObject from the Hierarchy window to the Object property of the action. 
 
-Click on the function property and select **Reset > resetBall()** to call the resetBall method from your Reset script:
+Click on the Function property and select **Reset > resetBall()** to call the resetBall method from your Reset script:
 
 ![An animated image showing the Ball GameObject being dragged from the Hierarchy window to the Object property. The object property is situated under the 'Runtime only' dropdown property.](images/onclick-ball.gif)
 
@@ -159,7 +159,7 @@ Click on the function property and select **Reset > resetBall()** to call the re
 
 **Test:** Press 'Play' and watch your ball roll down the track. Then press your reset button and notice that the ball returns to the top of the track.
 
-![The ball rolls down the track, the reset button is pressed and the ball goes back to the top of the track.](images/step6-output.gif)
+![The ball rolls down the track, the reset button is pressed, and the ball goes back to the top of the track.](images/step6-output.gif)
 
 Press the 'Play' button again to stop running your project. 
 
