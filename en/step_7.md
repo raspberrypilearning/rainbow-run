@@ -33,7 +33,7 @@ Click on the circle next to the Material property in the Capsule Collider compon
 
 --- task ---
 
-**Choose:** A material to style your capsule. 
+**Choose** a material to style your capsule. 
 
 In the Project window, go to **Materials**. Drag a coloured material onto the capsule in Scene view.   
 
@@ -51,7 +51,7 @@ Press the 'Play' button again to stop running your project.
 
 --- task ---
 
-Right-click on the Capsule GameObject in the Hierarchy window and select 'Duplicate'.
+Right-click on the 'Capsule' GameObject in the Hierarchy window and select 'Duplicate'.
 
 Use the move tool to drag the new capsule to another position. 
 
@@ -91,7 +91,7 @@ Rename the Cube object to 'SpinningCube'.
 
 --- task ---
 
-**Choose:** A material for your spinning cube. 
+**Choose** a material for your spinning cube. 
 
 --- /task ---
 

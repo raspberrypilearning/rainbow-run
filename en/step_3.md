@@ -51,7 +51,7 @@ With the 'Ball' GameObject selected, choose 'Add Component' in the Inspector win
 
 --- task ---
 
-Move your camera so you can see the whole track and the Ball. 
+Move your camera so you can see the whole track and the ball. 
 
 You can do this using the **Transform gizmo** and **Rotation gizmo** on the `Main Camera` GameObject. 
 

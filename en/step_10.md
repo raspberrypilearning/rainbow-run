@@ -6,7 +6,7 @@ If you want to have more fun exploring Unity, then you could try out any of [the
 
 --- print-only ---
 
-Disco Dance Floor: https://raspberrypilearning.github.io/unity-webgl/DiscoDanceFloor
+Disco dance floor: https://raspberrypilearning.github.io/unity-webgl/DiscoDanceFloor
 ![An image of the finished Disco dance floor project showing coloured tiles and a ball with mirror ball material. The floor is tilted at an angle.](images/disco-dance-floor.png)
 
 --- /print-only ---
@@ -14,6 +14,6 @@ Disco Dance Floor: https://raspberrypilearning.github.io/unity-webgl/DiscoDanceF
 --- no-print ---
 <iframe allowtransparency="true" width="710" height="500" src="https://raspberrypilearning.github.io/unity-webgl/DiscoDanceFloor" scrolling="no" frameborder="0"></iframe>
 
-If you want to create your own material to add to your Rainbow run ball, you could try out the [Blender - Add material effects to a marble](https://projects.raspberrypi.org/en/projects/blender-marble){:target='_blank'} project. 
+If you want to create your own material to add to your Rainbow run ball, you could try out the [Blender: Add material effects to a marble](https://projects.raspberrypi.org/en/projects/blender-marble){:target='_blank'} project. 
 
 --- /no-print ---
