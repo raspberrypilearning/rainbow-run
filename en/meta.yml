@@ -11,7 +11,7 @@ keywords:
 - game
 version: 1
 listed: false
-copyedit: false
+copyedit: true
 last_tested: "2023-06-13"
 steps:
   - title: You will make
