@@ -12,7 +12,7 @@ You can:
     + Spin speed 
     + Spin axis
 
-<iframe allowtransparency="true" width="710" height="500" src="https://raspberrypilearning.github.io/unity-webgl/RainbowRunUpgraded" scrolling = "no" frameborder="0"></iframe>
+<iframe allowtransparency="true" width="710" height="500" src="https://raspberrypilearning.github.io/unity-webgl/RainbowRunUpgraded" scrolling = "no" frameborder="0" alt="This is a playable demo of the completed Rainbow run example project"></iframe>
 
 --- collapse ---
 
