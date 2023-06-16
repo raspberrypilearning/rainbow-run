@@ -5,7 +5,7 @@
 In this step, you will add a reset button to respawn your ball at the top of the track.
 </div>
 <div>
-![The output of this step.](images/step6-output.gif){:width="300px"}
+![A reset button imposed over an animation of a ball bouncing and rolling down a 3D track. This will be the output of this step.](images/step6-output.gif){:width="300px"}
 </div>
 </div>
 
