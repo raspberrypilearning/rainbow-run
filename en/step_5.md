@@ -5,7 +5,7 @@
 In this step, you will create a script that uses the keyboard to control the ball.
 </div>
 <div>
-![The output of step 5.](images/control-ball.gif){:width="300px"}
+![Animation showing a ball rolling across a 3D track as the final output of step 5](images/control-ball.gif){:width="300px"}
 </div>
 </div>
 
