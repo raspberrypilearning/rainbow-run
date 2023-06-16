@@ -17,7 +17,7 @@ Control the camera by clicking the left mouse button and moving the mouse. Contr
 --- /no-print ---
 
 --- print-only ---
-![Complete project](images/showcase_static.png)
+![Completed project showing a 3D track with ridges and obstacles](images/showcase_static.png)
 --- /print-only ---
 
 
