@@ -17,7 +17,7 @@ Control the camera by clicking the left mouse button and moving the mouse. Contr
 --- /no-print ---
 
 --- print-only ---
-![Completed project showing a 3D track with ridges and obstacles](images/showcase_static.png)
+![Completed project showing a 3D multicoloured track with ridges and obstacles. The  track begins with a spiral down, leading to a ramp with a box that is open on the front and top.](images/showcase_static.png)
 --- /print-only ---
 
 
